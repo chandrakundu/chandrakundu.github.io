@@ -1,10 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tags on Chandra Kundu</title>
-    <link>https://chandrakundu.github.io/tags/</link>
-    <description>Recent content in Tags on Chandra Kundu</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://chandrakundu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tags - Tag - Chandra Kundu | Personal Website</title>
+        <link>https://chandrakundu.github.io/tags/</link>
+        <description>Tags - Tag - Chandra Kundu | Personal Website</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>chandrakundu@knights.ucf.edu (Chandra Kundu)</managingEditor>
+            <webMaster>chandrakundu@knights.ucf.edu (Chandra Kundu)</webMaster><atom:link href="https://chandrakundu.github.io/tags/" rel="self" type="application/rss+xml" /></channel>
 </rss>
