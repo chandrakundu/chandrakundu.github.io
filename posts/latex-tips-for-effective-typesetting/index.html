@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>LaTeX Tips for Effective Typesetting - Chandra Kundu | Personal Website</title><meta name="Description" content="PhD Student at University of Central Florida"><meta property="og:title" content="LaTeX Tips for Effective Typesetting" />
+<meta property="og:description" content="LaTeX is a powerful typesetting system used extensively for scientific documents, academic papers, and any situation which requires precision in presentation. Below are some effective tips and tricks to enhance your LaTeX typesetting, ensuring consistency and clarity in your documents.
+Keeping Text Together and Box Usage Ensuring Word Cohesion with mbox and fbox To prevent LaTeX from breaking up text between lines or pages, you can use the \mbox{} command, which will keep the text inside intact regardless of formatting." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://chandrakundu.github.io/posts/latex-tips-for-effective-typesetting/" /><meta property="og:image" content="https://chandrakundu.github.io/posts/latex-tips-for-effective-typesetting/latex_cover_photo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-11-16T20:53:47-05:00" />
+<meta property="article:modified_time" content="2023-11-16T20:53:47-05:00" /><meta property="og:site_name" content="Chandra Kundu | Personal Website" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://chandrakundu.github.io/posts/latex-tips-for-effective-typesetting/latex_cover_photo.png"/>
+<meta name="twitter:title" content="LaTeX Tips for Effective Typesetting"/>
+<meta name="twitter:description" content="LaTeX is a powerful typesetting system used extensively for scientific documents, academic papers, and any situation which requires precision in presentation. Below are some effective tips and tricks to enhance your LaTeX typesetting, ensuring consistency and clarity in your documents.
+Keeping Text Together and Box Usage Ensuring Word Cohesion with mbox and fbox To prevent LaTeX from breaking up text between lines or pages, you can use the \mbox{} command, which will keep the text inside intact regardless of formatting."/>
+<meta name="application-name" content="Chandra Kundu | Personal Website">
+<meta name="apple-mobile-web-app-title" content="Chandra Kundu | Personal Website"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://chandrakundu.github.io/posts/latex-tips-for-effective-typesetting/" /><link rel="prev" href="https://chandrakundu.github.io/posts/creating-website-with-hugo-on-windows/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "LaTeX Tips for Effective Typesetting",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/chandrakundu.github.io\/posts\/latex-tips-for-effective-typesetting\/"
+        },"image": [],"genre": "posts","wordcount":  1092 ,
+        "url": "https:\/\/chandrakundu.github.io\/posts\/latex-tips-for-effective-typesetting\/","datePublished": "2023-11-16T20:53:47-05:00","dateModified": "2023-11-16T20:53:47-05:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Chandra Kundu"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Chandra Kundu | Personal Website">Chandra Kundu</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/about/"> About </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Chandra Kundu | Personal Website">Chandra Kundu</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/about/" title="">About</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">LaTeX Tips for Effective Typesetting</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://chandrakundu.github.io" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Chandra Kundu</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-11-16">2023-11-16</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1092 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;6 minutes&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/posts/latex-tips-for-effective-typesetting/latex_cover_photo.png"
+        data-srcset="/posts/latex-tips-for-effective-typesetting/latex_cover_photo.png, /posts/latex-tips-for-effective-typesetting/latex_cover_photo.png 1.5x, /posts/latex-tips-for-effective-typesetting/latex_cover_photo.png 2x"
+        data-sizes="auto"
+        alt="/posts/latex-tips-for-effective-typesetting/latex_cover_photo.png"
+        title="/posts/latex-tips-for-effective-typesetting/latex_cover_photo.png" width="1200" height="630" /></div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#keeping-text-together-and-box-usage">Keeping Text Together and Box Usage</a>
+      <ul>
+        <li><a href="#ensuring-word-cohesion-with-mbox-and-fbox">Ensuring Word Cohesion with mbox and fbox</a></li>
+        <li><a href="#typography-and-quotation-marks">Typography and Quotation Marks</a></li>
+        <li><a href="#word-separation-with-slash">Word Separation with slash</a></li>
+      </ul>
+    </li>
+    <li><a href="#math-expressions-in-latex">Math Expressions in LaTeX</a>
+      <ul>
+        <li><a href="#roman-letters-in-equations">Roman Letters in Equations</a></li>
+        <li><a href="#ellipsis-representations">Ellipsis Representations</a></li>
+        <li><a href="#spacing-and-non-breaking-in-latex">Spacing and Non-Breaking in LaTeX</a></li>
+        <li><a href="#in-line-math-expressions">In-Line Math Expressions</a></li>
+        <li><a href="#displaying-fractions">Displaying Fractions</a></li>
+        <li><a href="#referencing-equations">Referencing Equations</a></li>
+        <li><a href="#underlines-and-overlines">Underlines and Overlines</a></li>
+      </ul>
+    </li>
+    <li><a href="#advanced-mathematical-customizations">Advanced Mathematical Customizations</a></li>
+    <li><a href="#adjusting-spacing">Adjusting Spacing</a>
+      <ul>
+        <li><a href="#horizontal-and-vertical-spaces">Horizontal and Vertical Spaces</a></li>
+        <li><a href="#changing-line-spacing">Changing Line Spacing</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>LaTeX is a powerful typesetting system used extensively for scientific documents, academic papers, and any situation which requires precision in presentation. Below are some effective tips and tricks to enhance your LaTeX typesetting, ensuring consistency and clarity in your documents.</p>
+<h2 id="keeping-text-together-and-box-usage">Keeping Text Together and Box Usage</h2>
+<h3 id="ensuring-word-cohesion-with-mbox-and-fbox">Ensuring Word Cohesion with mbox and fbox</h3>
+<p>To prevent LaTeX from breaking up text between lines or pages, you can use the <code>\mbox{}</code> command, which will keep the text inside intact regardless of formatting. It&rsquo;s particularly useful when dealing with text that must stay together, such as proper names or specific code snippets.</p>
+<p><code>My phone number will change soon. It will be \\mbox{0116 291 2319}.</code></p>
+<p>My phone number will change soon. It will be 0116 291 2319.</p>
+<p>Similarly, <code>\fbox{}</code> wraps the content with a visible box, which can be helpful for highlighting information or creating distinct sections visually.</p>
+<p>\fbox{This text is boxed.}</p>
+<p>To stop specific ligatures—two or more letters combined into a single character (ff fi fl f) —from being used, insert an <code>\mbox{}</code> between the characters.</p>
+<p><code>shelf\\mbox{}ful</code></p>
+<p>shelfful</p>
+<h3 id="typography-and-quotation-marks">Typography and Quotation Marks</h3>
+<p>In LaTeX, the correct way to start and end quotes is to use a grave accent <code>`</code> for opening quotes and a simple vertical quote <code>'</code> for closing quotes. For double quotes, use two grave accents and two vertical quotes.</p>
+<p><code>`single quotes'</code></p>
+<h3 id="word-separation-with-slash">Word Separation with slash</h3>
+<p>Using <code>\slash</code> allows you to correctly separate words, particularly useful in compound words that require a &ldquo;read or write&rdquo; representation.</p>
+<p>read\slash write</p>
+<p>read\write</p>
+<h2 id="math-expressions-in-latex">Math Expressions in LaTeX</h2>
+<h3 id="roman-letters-in-equations">Roman Letters in Equations</h3>
+<p>To use Roman letters within an equation, you should use the <code>\mathrm{}</code> directive.</p>
+<p><code>\int\_{0}^{\infty} x\^{}2 \\mathrm{e}\^{-x} \\mathrm{d}x</code>
+$$\int_{0}^{\infty} x^{2} \mathrm{e}^{-x} \mathrm{d}x$$</p>
+<h3 id="ellipsis-representations">Ellipsis Representations</h3>
+<p>LaTeX offers different types of ellipsis () representations:</p>
+<ul>
+<li><code>\ldots</code> for a horizontal ellipsis in text. ($\ldots$)</li>
+<li><code>\cdots</code> for centered ellipsis dots in math mode. ($\cdots$)</li>
+<li><code>\vdots</code> for vertical ellipsis dots in math mode. ($\vdots$)</li>
+<li><code>\ddots</code> for diagonal ellipsis dots in math mode. ($\ddots$)</li>
+<li><code>\cdot</code> for a single centered dot in math mode. ($\cdot$)</li>
+</ul>
+<h3 id="spacing-and-non-breaking-in-latex">Spacing and Non-Breaking in LaTeX</h3>
+<p>The tilde character <code>~</code> in LaTeX creates a non-breakable space, ensuring that certain elements stay together. This generates a space that cannot be enlarged and additionally prohibits a line break.</p>
+<p><code>Dr.~Dre</code></p>
+<p>Dr. Dre</p>
+<p>When using <code>\@</code> before a period, LaTeX understands the period as the end of a sentence even if it is preceded by an uppercase letter.</p>
+<p>PROF.~SMITH WAS HAPPY TO SEE HER \@.</p>
+<p>PROF. SMITH WAS HAPPY TO SEE HER.</p>
+<h3 id="in-line-math-expressions">In-Line Math Expressions</h3>
+<p>When typesetting in-line math expressions that are tall or deep, the <code>\smash{}</code> command can help avoid irregular spacing in the surrounding text.</p>
+<p><code>A $d_{e_{e_p}}$ mathematical expression followed by a $h^{i^{g^h}}$ expression. As opposed to a smashed \smash{$d_{e_{e_p}}$} expression followed by a \smash{$h^{i^{g^h}}$} expression. </code>
+A $d_{e_{e_p}}$ mathematical expression followed by a $h^{i^{g^h}}$ expression. As opposed to a smashed \smash{$d_{e_{e_p}}$} expression followed by a \smash{$h^{i^{g^h}}$} expression.</p>
+<p>The example above is not correct and cannot be displayed in the browser.</p>
+<h3 id="displaying-fractions">Displaying Fractions</h3>
+<p>Using <code>\frac{numerator}{denominator}</code> you can display fractions. For in-line equations, fractions will be resized to fit the line, but you can use <code>\dfrac{}</code> for a display-size fraction within text.</p>
+<p><code>$1\frac{1}{2}$~hours $\qquad 1\dfrac{1}{2}$~hours</code></p>
+<p>$1\frac{1}{2}$ hours $\qquad 1\dfrac{1}{2}$ hours.</p>
+<p>The slashed form <code>1/2</code> is often preferable for simple fractions due to its clarity and the fact that it takes less vertical space.</p>
+<p><code>\tfrac{1}{2}</code> can be used in equation mode to shrink the size of the fraction.</p>
+<pre tabindex="0"><code>\begin{equation*}
+3/8 \qquad \frac{3}{8}
+\qquad \tfrac{3}{8}
+\end{equation*}
+</code></pre><p>$$3/8 \qquad \frac{3}{8} \qquad \tfrac{3}{8}$$</p>
+<h3 id="referencing-equations">Referencing Equations</h3>
+<p>Inside the <code>equation</code> environment, you can label an equation with <code>\label{}</code> and refer to it anywhere in the text using <code>\eqref{}</code>.</p>
+<pre tabindex="0"><code>\begin{equation}
+E = mc^2 \label{eq:energy\_mass}
+\end{equation}
+</code></pre><p>As shown in equation <code>\eqref{eq:energy\_mass}</code> &hellip;</p>
+<p>If you want to assign a custom name to an equation, use <code>\tag{}</code> instead.</p>
+<h3 id="underlines-and-overlines">Underlines and Overlines</h3>
+<p>To create horizontal lines over or under expressions, use <code>\overline{}</code> and <code>\underline{}</code> respectively.</p>
+<p><code>\\underline{x+y}</code></p>
+<p>$$\underline{x+y}$$</p>
+<p>For double underlines, you can stack the command:</p>
+<p><code>\\underline{\\underline{x+y}}</code></p>
+<p>$$\underline{\underline{x+y}}$$</p>
+<h2 id="advanced-mathematical-customizations">Advanced Mathematical Customizations</h2>
+<p>LaTeX also offers commands for more advanced operations:</p>
+<ul>
+<li>
+<p><code>\stackrel{#1}{#2}</code>: Places a symbol over another in superscript size.
+<code>f_n(x) \stackrel{*}{\approx} 1</code>
+$f_n(x) \stackrel{*}{\approx} 1$</p>
+</li>
+<li>
+<p><code>\DeclareMathOperator</code>: Declares a new operator (must be used in the preamble).
+<code>\DeclareMathOperator{\func}{Function}</code>
+Then use <code>\func</code> to display the operator.</p>
+</li>
+<li>
+<p><code>\bmod</code> and <code>\pmod</code>: Used for modulus operations in math mode.
+<code>a \bmod b \qquad x \equiv a \pmod{b}</code>
+$a \bmod b \qquad x \equiv a \pmod{b}$</p>
+</li>
+<li>
+<p><code>\newtheorem</code>: For defining new theorem-like environments.
+<code>\newtheorem{name}[counter]{text}[section]</code>
+Here, name is the short keyword to identify the theorem, and text is the text to be displayed. The optional section argument allows you to define the sectional unit that the theorem will be numbered with. the counter argument to specify the name of a previously declared “theorem”. The new “theorem” will then be numbered in the same sequence.</p>
+</li>
+<li>
+<p><code>\newcommand</code>: To define new, custom commands for repetitive use.
+<code>\newcommand{name}[num]{definition}</code>
+Here, name and definition are required, and num is optional. If num is specified, the command will expect that number of arguments. Upto 9 arguments can be specified.  #1, #2, etc. are used to refer to the arguments in the definition. <code>\providecommand</code> is similar to <code>\newcommand</code>, but it does nothing if the command is already defined.</p>
+</li>
+<li>
+<p><code>\newenvironment</code>: To define new environments.
+<code>\newenvironment{name}[num]{before}{after}</code>
+Here, name is the name of the environment, before is the text to be printed before the environment, and after is the text to be printed after the environment. If num is specified, the environment will expect that number of arguments. Upto 9 arguments can be specified. #1, #2, etc. are used to refer to the arguments in the definition. \ignorespacesafterend and \ignorespaces are useful commands to ignore spaces after the environment.
+<code>\newenvironment{myenvironment}{\begin{center}}{\end{center}}</code></p>
+</li>
+<li>
+<p>Read 6.1.5 of the source for more information about creating package.</p>
+</li>
+</ul>
+<h2 id="adjusting-spacing">Adjusting Spacing</h2>
+<h3 id="horizontal-and-vertical-spaces">Horizontal and Vertical Spaces</h3>
+<p>To manage horizontal and vertical spaces within your document, LaTeX offers various commands:</p>
+<ul>
+<li>
+<p><code>\hspace{length}</code> and <code>\vspace{length}</code>: To add space horizontally or vertically. Supported units are <code>pt</code>, <code>mm</code>, <code>cm</code>, <code>in</code>, <code>ex</code>, <code>em</code>, <code>mu</code>, <code>fil</code>, <code>fill</code>, and <code>filll</code>.
+<code>pt</code>: point (1/3 mm); <code>em</code>: width of the letter M in the current font; <code>mu</code>: math unit, 1/18 em; <code>ex</code>: height of the letter x in the current font.</p>
+</li>
+<li>
+<p><code>\bigskip</code> and <code>\smallskip</code>: For predefined vertical skipping.</p>
+</li>
+<li>
+<p>Additional space between two lines of the same paragraph or within a table is specified with the <code>\\[length]</code> command.</p>
+</li>
+<li>
+<p><code>\!</code>, <code>\,</code>, <code>\quad</code>, and <code>\qquad</code>: For fine-tuning spacing in math mode.</p>
+</li>
+</ul>
+<p>Flexible spacing can be achieved with <code>\stretch{n}</code> which expands to fill all available space.</p>
+<h3 id="changing-line-spacing">Changing Line Spacing</h3>
+<p>To modify line spacing, use <code>\setlength{\baselineskip}</code> followed by a scaling factor.</p>
+<p><code>\setlength{\baselineskip}{1.5\baselineskip}</code></p>
+<p>Source: The Not So Short Introduction to LaTeX2e<br>
+<a href="http://tug.ctan.org/info/lshort/english/lshort.pdf" target="_blank" rel="noopener noreffer ">http://tug.ctan.org/info/lshort/english/lshort.pdf</a></p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2023-11-16</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://chandrakundu.github.io/posts/latex-tips-for-effective-typesetting/" data-title="LaTeX Tips for Effective Typesetting"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://chandrakundu.github.io/posts/latex-tips-for-effective-typesetting/"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://chandrakundu.github.io/posts/latex-tips-for-effective-typesetting/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="https://chandrakundu.github.io/posts/latex-tips-for-effective-typesetting/" data-title="LaTeX Tips for Effective Typesetting" data-web><i class="fab fa-whatsapp fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/creating-website-with-hugo-on-windows/" class="prev" rel="prev" title="Create Website with Blog using Hugo on Windows"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Create Website with Blog using Hugo on Windows</a></div>
+</div>
+<div id="comments"><div id="disqus_thread" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.119.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2019 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://chandrakundu.github.io" target="_blank">Chandra Kundu</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css"><script type="text/javascript" src="https://chandra-kundu-personal-website.disqus.com/embed.js" defer></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>
