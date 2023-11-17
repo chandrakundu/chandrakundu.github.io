@@ -4,17 +4,9 @@
         <link>https://chandrakundu.github.io/</link>
         <description>PhD Student at University of Central Florida</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>chandrakundu@knights.ucf.edu (Chandra Kundu)</managingEditor>
-            <webMaster>chandrakundu@knights.ucf.edu (Chandra Kundu)</webMaster><lastBuildDate>Thu, 16 Nov 2023 20:15:20 -0500</lastBuildDate>
+            <webMaster>chandrakundu@knights.ucf.edu (Chandra Kundu)</webMaster><lastBuildDate>Sun, 01 Oct 2023 00:37:12 -0400</lastBuildDate>
             <atom:link href="https://chandrakundu.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>Sample_post_1</title>
-    <link>https://chandrakundu.github.io/posts/sample_post_1/</link>
-    <pubDate>Thu, 16 Nov 2023 20:15:20 -0500</pubDate>
-    <author>Chandra Kundu</author>
-    <guid>https://chandrakundu.github.io/posts/sample_post_1/</guid>
-    <description><![CDATA[Hugo is a popular open-source static site generator (SSG) that&rsquo;s known for its speed, flexibility, and ease of use. In this post, I&rsquo;ll walk you through the process of creating a website using Hugo on Windows.]]></description>
-</item>
-<item>
     <title>Create Website with Blog using Hugo on Windows</title>
     <link>https://chandrakundu.github.io/posts/creating-website-with-hugo-on-windows/</link>
     <pubDate>Sun, 01 Oct 2023 00:37:12 -0400</pubDate>
