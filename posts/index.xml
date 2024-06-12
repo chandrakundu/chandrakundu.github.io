@@ -5,13 +5,13 @@
         <description>All Posts | Chandra Kundu | Personal Website</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>chandrakundu@knights.ucf.edu (Chandra Kundu)</managingEditor>
             <webMaster>chandrakundu@knights.ucf.edu (Chandra Kundu)</webMaster><atom:link href="https://chandrakundu.github.io/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>Create Website with Blog using Hugo on Windows</title>
+    <title>How to create a chatbot like ChatGPT by running LLM locally in Windows via Ollama and Open WebUI</title>
     <link>https://chandrakundu.github.io/posts/how-to-create-ai-chatbot/</link>
     <pubDate>Wed, 12 Jun 2024 00:37:12 -0400</pubDate>
     <author>Chandra Kundu</author>
     <guid>https://chandrakundu.github.io/posts/how-to-create-ai-chatbot/</guid>
     <description><![CDATA[<div class="featured-image">
-                <img src="/hugo_cover.webp" referrerpolicy="no-referrer">
+                <img src="https://ollama.com/public/ollama.png" referrerpolicy="no-referrer">
             </div>In this post we will see that how to create a chatbot like ChatGPT by running Large Language Model (LLM) locally in Windows via Ollama and Open WebUI
 Creating a chatbot that runs a large language model (LLM) on your local machine can be done in several ways. Here are some methods you might consider:
 Using API and Programming: This approach is often difficult and time-consuming. Chatbot UI: This method requires API access from OpenAI.]]></description>
