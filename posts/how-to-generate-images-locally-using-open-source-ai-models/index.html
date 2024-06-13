@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/WebPage" lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <meta name="robots" content="noodp" />
+    <title>How to Generate Images Locally Using Open Source AI Models - Chandra Kundu | Personal Website</title><meta name="author" content="">
+<meta name="author-link" content="">
+<meta name="description" content="Generating images locally using open-source AI models is a fascinating way to leverage AI&rsquo;s creative potential. Among the available tools, Invoke AI stands out due to its ease of installation and robust features. While Automatic1111 is popular, Invoke AI offers a more streamlined experience for beginners and advanced users alike. Here&rsquo;s a guide to help you set up and run Invoke AI on your local Windows computer.
+PrerequisitesBefore diving into the installation process, ensure you have the following:" /><meta itemprop="name" content="How to Generate Images Locally Using Open Source AI Models">
+<meta itemprop="description" content="Generating images locally using open-source AI models is a fascinating way to leverage AI&rsquo;s creative potential. Among the available tools, Invoke AI stands out due to its ease of installation and robust features. While Automatic1111 is popular, Invoke AI offers a more streamlined experience for beginners and advanced users alike. Here&rsquo;s a guide to help you set up and run Invoke AI on your local Windows computer.
+PrerequisitesBefore diving into the installation process, ensure you have the following:"><meta itemprop="datePublished" content="2024-06-12T00:37:12-12:00" />
+<meta itemprop="dateModified" content="2024-06-12T00:37:12-12:00" />
+<meta itemprop="wordCount" content="331"><meta itemprop="image" content="https://chandrakundu.github.io/chandra-kundu.png"/>
+<meta itemprop="keywords" content="" /><meta property="og:title" content="How to Generate Images Locally Using Open Source AI Models" />
+<meta property="og:description" content="Generating images locally using open-source AI models is a fascinating way to leverage AI&rsquo;s creative potential. Among the available tools, Invoke AI stands out due to its ease of installation and robust features. While Automatic1111 is popular, Invoke AI offers a more streamlined experience for beginners and advanced users alike. Here&rsquo;s a guide to help you set up and run Invoke AI on your local Windows computer.
+PrerequisitesBefore diving into the installation process, ensure you have the following:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://chandrakundu.github.io/posts/how-to-generate-images-locally-using-open-source-ai-models/" /><meta property="og:image" content="https://chandrakundu.github.io/chandra-kundu.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-06-12T00:37:12-12:00" />
+<meta property="article:modified_time" content="2024-06-12T00:37:12-12:00" /><meta property="og:site_name" content="Chandra Kundu | Personal Website" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://chandrakundu.github.io/chandra-kundu.png"/>
+
+<meta name="twitter:title" content="How to Generate Images Locally Using Open Source AI Models"/>
+<meta name="twitter:description" content="Generating images locally using open-source AI models is a fascinating way to leverage AI&rsquo;s creative potential. Among the available tools, Invoke AI stands out due to its ease of installation and robust features. While Automatic1111 is popular, Invoke AI offers a more streamlined experience for beginners and advanced users alike. Here&rsquo;s a guide to help you set up and run Invoke AI on your local Windows computer.
+PrerequisitesBefore diving into the installation process, ensure you have the following:"/>
+<meta name="application-name" content="Chandra Kundu | Personal Website">
+<meta name="apple-mobile-web-app-title" content="Chandra Kundu | Personal Website"><meta name="theme-color" data-light="#ffffff" data-dark="#ffffff" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" href="https://chandrakundu.github.io/posts/how-to-generate-images-locally-using-open-source-ai-models/" /><link rel="prev" href="https://chandrakundu.github.io/posts/how-to-create-ai-chatbot/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><meta name="google-site-verification" content="0jwgmOu3-q1Tr-PJlcVJTwxYw-d9yLM7nyySKD9W85Y" /><script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "How to Generate Images Locally Using Open Source AI Models",
+    "inLanguage": "en",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https:\/\/chandrakundu.github.io\/posts\/how-to-generate-images-locally-using-open-source-ai-models\/"
+    },"image": [],"genre": "posts","wordcount":  331 ,
+    "url": "https:\/\/chandrakundu.github.io\/posts\/how-to-generate-images-locally-using-open-source-ai-models\/","datePublished": "2024-06-12T00:37:12-12:00","dateModified": "2024-06-12T00:37:12-12:00","publisher": {
+      "@type": "Organization",
+      "name": ""},"author": {
+        "@type": "Person",
+        "name": "Author"
+      },"description": ""
+  }
+  </script></head>
+  <body data-header-desktop="fixed" data-header-mobile="auto"><script>(window.localStorage?.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('data-theme', 'dark');</script><div class="wrapper" data-page-style="normal"><header class="desktop animate__faster" id="header-desktop">
+  <div class="header-wrapper">
+    <div class="header-title">
+      <a href="/" title="Chandra Kundu | Personal Website"><span class="header-title-text">Chandra Kundu</span></a><span class="header-subtitle"></span></div>
+    <nav>
+      <ul class="menu"><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/posts/"
+                
+                
+              >Posts</a></li><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/about/"
+                
+                
+              >About</a></li><li class="menu-item delimiter"></li><li class="menu-item search" id="search-desktop">
+            <input type="text" placeholder="Search titles or contents ..." id="search-input-desktop">
+            <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+              <i class="fa-solid fa-search fa-fw" aria-hidden="true"></i>
+            </a>
+            <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+              <i class="fa-solid fa-times-circle fa-fw" aria-hidden="true"></i>
+            </a>
+            <span class="search-button search-loading" id="search-loading-desktop">
+              <i class="fa-solid fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+            </span>
+          </li><li class="menu-item theme-switch" title="Switch Theme">
+          <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+        </li></ul>
+    </nav>
+  </div>
+</header><header class="mobile animate__faster" id="header-mobile">
+  <div class="header-container">
+    <div class="header-wrapper">
+      <div class="header-title">
+        <a href="/" title="Chandra Kundu | Personal Website"><span class="header-title-text">Chandra Kundu</span></a><span class="header-subtitle"></span></div>
+      <div class="menu-toggle" id="menu-toggle-mobile">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+    <nav>
+      <ul class="menu" id="menu-mobile"><li class="search-wrapper">
+            <div class="search mobile" id="search-mobile">
+              <input type="text" placeholder="Search titles or contents ..." id="search-input-mobile">
+              <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                <i class="fa-solid fa-search fa-fw" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                <i class="fa-solid fa-times-circle fa-fw" aria-hidden="true"></i>
+              </a>
+              <span class="search-button search-loading" id="search-loading-mobile">
+                <i class="fa-solid fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+              </span>
+            </div>
+            <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+              Cancel
+            </a>
+          </li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/posts/"
+                  
+                  
+                >Posts</a></li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/about/"
+                  
+                  
+                >About</a></li><li class="menu-item menu-system">
+          <span class="menu-system-item theme-switch" title="Switch Theme"><i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i></span></li>
+      </ul>
+    </nav>
+  </div>
+</header><div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+  </div>
+  <div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+  </div><main class="container"><aside class="aside-collection animate__animated animate__fadeIn animate__faster" aria-label="Collections"></aside>
+
+  <article class="page single">
+    <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span>How to Generate Images Locally Using Open Source AI Models</span>
+      </h1></div><div class="post-meta">
+      <div class="post-meta-line"><span class="post-author"><span class="author"><i class="fa-solid fa-user-circle" aria-hidden="true"></i>
+      Anonymous</span></span></div><div class="post-meta-line"><span title="published on 2024-06-12 00:37:12"><i class="fa-solid fa-calendar-days fa-fw me-1" aria-hidden="true"></i><time datetime="2024-06-12">2024-06-12</time></span>&nbsp;<span title="331 words"><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>About 400 words</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>2 minutes</span>&nbsp;</div>
+    </div><div class="featured-image"><img loading="lazy" src="/posts/how-to-generate-images-locally-using-open-source-ai-models/invoke-ai.png" alt="/posts/how-to-generate-images-locally-using-open-source-ai-models/invoke-ai.png" data-title="/posts/how-to-generate-images-locally-using-open-source-ai-models/invoke-ai.png" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></div><div class="details toc" id="toc-static" data-kept="false">
+        <div class="details-summary toc-title">
+          <span>Contents</span>
+          <span><i class="details-icon fa-solid fa-angle-right" aria-hidden="true"></i></span>
+        </div>
+        <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#prerequisites">Prerequisites</a></li>
+    <li><a href="#installation-steps">Installation Steps</a></li>
+    <li><a href="#invoke-ai-tutorial">Invoke AI Tutorial</a></li>
+  </ul>
+</nav></div>
+      </div><div class="content" id="content"><p>Generating images locally using open-source AI models is a fascinating way to leverage AI&rsquo;s creative potential. Among the available tools, <strong>Invoke AI</strong> stands out due to its ease of installation and robust features. While <strong>Automatic1111</strong> is popular, Invoke AI offers a more streamlined experience for beginners and advanced users alike. Here&rsquo;s a guide to help you set up and run Invoke AI on your local Windows computer.</p>
+<h2 id="prerequisites" class="heading-element"><span>Prerequisites</span>
+  <a href="#prerequisites" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>Before diving into the installation process, ensure you have the following:</p>
+<ul>
+<li>
+<p><strong>Hardware Requirements:</strong></p>
+<ul>
+<li>An NVIDIA-based graphics card with at least 12 GB of main memory RAM.</li>
+<li>For Stable Diffusion 1.5: At least 4 GB VRAM.</li>
+<li>For Stable Diffusion XL: At least 8 GB VRAM.</li>
+</ul>
+</li>
+<li>
+<p><strong>Software Requirements:</strong></p>
+<ul>
+<li>Python 3.11.</li>
+<li>CUDA enabled on your system. Verify CUDA installation by running <code>nvidia-smi</code> in the terminal.</li>
+</ul>
+</li>
+</ul>
+<h2 id="installation-steps" class="heading-element"><span>Installation Steps</span>
+  <a href="#installation-steps" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><ol>
+<li>
+<p><strong>Download Invoke AI:</strong></p>
+<ul>
+<li>Download the latest version of Invoke AI from the <a href="https://github.com/invoke-ai/InvokeAI/releases"target="_blank" rel="external nofollow noopener noreferrer">official GitHub releases page</a>. To download v4.2.4 directly, click <a href="https://github.com/invoke-ai/InvokeAI/releases/download/v4.2.4/InvokeAI-installer-v4.2.4.zip"target="_blank" rel="external nofollow noopener noreferrer">here</a>.</li>
+<li>Extract the downloaded files to your desired location.</li>
+</ul>
+</li>
+<li>
+<p><strong>Run the Installer Script:</strong></p>
+<ul>
+<li>Navigate to the extracted files.</li>
+<li>Double-click on the <code>install.bat</code> script to begin the installation.</li>
+<li>Follow the prompts to specify an installation location and select your GPU type.</li>
+</ul>
+</li>
+<li>
+<p><strong>Locate the Installation Directory:</strong></p>
+<ul>
+<li>Once the installation is complete, find the directory you specified. The default location is <code>C:\Users\Username\invokeai</code> for Windows.</li>
+</ul>
+</li>
+<li>
+<p><strong>Run the Launcher Script:</strong></p>
+<ul>
+<li>Navigate to the installation directory.</li>
+<li>Double-click on <code>invoke.bat</code> to launch Invoke AI.</li>
+</ul>
+</li>
+<li>
+<p><strong>Start the Application:</strong></p>
+<ul>
+<li>Select option 1 to start the application.</li>
+<li>Once it starts up, open your browser and go to <code>http://localhost:9090</code>.</li>
+</ul>
+</li>
+<li>
+<p><strong>Install a Starter Model:</strong></p>
+<ul>
+<li>Open the model manager tab within the Invoke AI interface.</li>
+<li>Install a starter model to begin generating images.</li>
+</ul>
+</li>
+</ol>
+<p>You are now ready to explore the creative possibilities of AI image generation using Invoke AI. This powerful tool provides an accessible entry point for both hobbyists and professionals looking to delve into AI-driven art.</p>
+<p>Stay tuned for our next tutorial where we&rsquo;ll delve deeper into using Invoke AI to create stunning images.</p>
+<h2 id="invoke-ai-tutorial" class="heading-element"><span>Invoke AI Tutorial</span>
+  <a href="#invoke-ai-tutorial" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>Coming soon&hellip;</p>
+</div><div class="post-footer" id="post-footer">
+  <div class="post-info">
+    <div class="post-info-line">
+      <div class="post-info-mod">
+        <span title="Updated on 2024-06-12 00:37:12">Updated on 2024-06-12&nbsp;</span>
+      </div><div class="post-info-license">
+            <span><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span>
+          </div></div><div class="post-info-line">
+        <div class="post-info-md"></div>
+        <div class="post-info-share">
+          <span><a href="javascript:void(0);" title="Share on X" data-sharer="twitter" data-url="https://chandrakundu.github.io/posts/how-to-generate-images-locally-using-open-source-ai-models/" data-title="How to Generate Images Locally Using Open Source AI Models"><i class="fa-brands fa-x-twitter fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://chandrakundu.github.io/posts/how-to-generate-images-locally-using-open-source-ai-models/"><i class="fa-brands fa-facebook-square fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://chandrakundu.github.io/posts/how-to-generate-images-locally-using-open-source-ai-models/"><i class="fa-brands fa-linkedin fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="https://chandrakundu.github.io/posts/how-to-generate-images-locally-using-open-source-ai-models/" data-title="How to Generate Images Locally Using Open Source AI Models" data-web><i class="fa-brands fa-whatsapp fa-fw" aria-hidden="true"></i></a>
+  </span>
+        </div>
+      </div></div>
+
+  <div class="post-info-more">
+    <section class="post-tags"></section>
+    <section>
+      <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+    </section>
+  </div>
+
+  <div class="post-nav"><a href="/posts/how-to-create-ai-chatbot/" class="post-nav-item" rel="prev" title="How to Create a Chatbot Like ChatGPT by Running LLM Locally in Windows via Ollama and Open WebUI"><i class="fa-solid fa-angle-left fa-fw" aria-hidden="true"></i>How to Create a Chatbot Like ChatGPT by Running LLM Locally in Windows via Ollama and Open WebUI</a></div>
+</div>
+<div id="comments"><div id="disqus_thread" class="comment"></div><noscript>
+        Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript" rel="external nofollow noopener noreferrer">Disqus</a>.
+      </noscript></div></article>
+
+  <aside class="toc" id="toc-auto" aria-label="Contents"><h2 class="toc-title">Contents&nbsp;<i class="toc-icon fa-solid fa-angle-down fa-fw" aria-hidden="true"></i></h2>
+      <div class="toc-content" id="toc-content-auto"></div></aside></main><footer class="footer">
+    <div class="footer-container"><div class="footer-line powered">Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="Hugo 0.119.0"><img class="hugo-icon" src="/images/hugo.min.svg" alt="Hugo logo" /> Hugo</a> | Theme - <a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external" title="FixIt v0.3.8-RC"><img class="fixit-icon" src="/images/fixit.min.svg" alt="FixIt logo" /> FixIt</a>
+        </div><div class="footer-line copyright" itemscope itemtype="http://schema.org/CreativeWork"><i class="fa-regular fa-copyright fa-fw" aria-hidden="true"></i>
+            <span itemprop="copyrightYear">2019 - 2024</span><span class="author" itemprop="copyrightHolder">
+              <a href="/"></a></span><span class="license footer-divider"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div></div>
+  </footer></div><div class="widgets"><div class="fixed-buttons animate__faster d-none"><div class="fixed-button back-to-top" role="button" aria-label="Back to Top"><i class="fa-solid fa-arrow-up fa-fw" aria-hidden="true"></i><span class="variant-numeric d-none">0%</span>
+        </div><div class="fixed-button view-comments d-none" role="button" aria-label="View Comments"><i class="fa-solid fa-comment fa-fw" aria-hidden="true"></i></div></div><div id="mask"></div><div class="reading-progress-bar" style="left: 0;top: 0;"></div><noscript>
+    <div class="noscript-warning">यह वेबसाइट जावास्क्रिप्ट सक्षम होने पर सबसे अच्छा काम करती है।</div>
+  </noscript>
+</div><link rel="preload" href="/lib/katex/katex.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/katex/katex.min.css"></noscript><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script src="https://chandra-kundu-personal-website.disqus.com/embed.js" defer></script><script src="/lib/autocomplete/autocomplete.min.js" defer></script><script src="/lib/fuse/fuse.min.js" defer></script><script src="/lib/sharer/sharer.min.js" async defer></script><script src="/lib/katex/katex.min.js" defer></script><script src="/lib/katex/auto-render.min.js" defer></script><script src="/lib/katex/copy-tex.min.js" defer></script><script src="/lib/katex/mhchem.min.js" defer></script><script src="/lib/cookieconsent/cookieconsent.min.js" defer></script><script>window.config={"code":{"copyTitle":"Copy to clipboard","editLockTitle":"Lock editable code block","editUnLockTitle":"Unlock editable code block","editable":true,"maxShownLines":50},"comment":{"enable":true,"expired":false},"cookieconsent":{"content":{"dismiss":"Got it!","link":"Learn more","message":"This website uses Cookies to improve your experience."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"distance":100,"findAllMatches":false,"fuseIndexURL":"/index.json","highlightTag":"em","ignoreFieldNorm":false,"ignoreLocation":false,"isCaseSensitive":false,"location":0,"maxResultLength":10,"minMatchCharLength":2,"noResultsFound":"No results found","snippetLength":30,"threshold":0.3,"type":"fuse","useExtendedSearch":false},"version":"v0.3.8-RC"};</script><script src="/js/theme.min.js" defer></script></body>
+</html>

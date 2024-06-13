@@ -4,6 +4,15 @@
     <link>https://chandrakundu.github.io/posts/</link>
     <description>All Posts | Chandra Kundu | Personal Website</description>
     <generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://chandrakundu.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+  <title>How to Generate Images Locally Using Open Source AI Models</title>
+  <link>https://chandrakundu.github.io/posts/how-to-generate-images-locally-using-open-source-ai-models/</link>
+  <pubDate>Wed, 12 Jun 2024 00:37:12 -1200</pubDate>
+  <author>Author</author>
+  <guid>https://chandrakundu.github.io/posts/how-to-generate-images-locally-using-open-source-ai-models/</guid>
+  <description><![CDATA[<div class="featured-image"><img loading="eager" src="invoke-ai.png" alt="How to Generate Images Locally Using Open Source AI Models" title="How to Generate Images Locally Using Open Source AI Models" referrerpolicy="no-referrer"/></div>Generating images locally using open-source AI models is a fascinating way to leverage AI&rsquo;s creative potential. Among the available tools, Invoke AI stands out due to its ease of installation and robust features. While Automatic1111 is popular, Invoke AI offers a more streamlined experience for beginners and advanced users alike. Here&rsquo;s a guide to help you set up and run Invoke AI on your local Windows computer.
+PrerequisitesBefore diving into the installation process, ensure you have the following:]]></description>
+</item>
+<item>
   <title>How to create a chatbot like ChatGPT by running LLM locally in Windows via Ollama and Open WebUI</title>
   <link>https://chandrakundu.github.io/posts/how-to-create-ai-chatbot/</link>
   <pubDate>Wed, 12 Jun 2024 00:37:12 -0400</pubDate>
@@ -29,9 +38,10 @@ Keeping Text Together and Box UsageEnsuring Word Cohesion with mbox and fboxTo
   <author>Author</author>
   <guid>https://chandrakundu.github.io/posts/creating-website-with-hugo-on-windows/</guid>
   <description><![CDATA[<div class="featured-image"><img loading="eager" src="hugo_cover.webp" alt="Create Website with Blog using Hugo on Windows" title="Create Website with Blog using Hugo on Windows" referrerpolicy="no-referrer"/></div>Hugo is a popular open-source static site generator (SSG) that&rsquo;s known for its speed, flexibility, and ease of use. In this post, I&rsquo;ll walk you through the process of creating a website using Hugo on Windows.
-Installing HugoDownload Hugo:
-To install Hugo, you can clone the repository: git clone https://github.com/gohugoio/hugo.git. Alternatively, for the latest release, visit Hugo Releases. Download the appropriate version and extract hugo.exe. Set Up Hugo:
-Place hugo.]]></description>
+Installing HugoUsing wingetInstall Hugo:
+Open PowerShell as an administrator. Run winget install Hugo. Verify Installation:
+Run hugo version in PowerShell to verify the installation. Manual InstallationDownload Hugo:
+To install Hugo, you can clone the repository: git clone https://github.]]></description>
 </item>
 </channel>
 </rss>
