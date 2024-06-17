@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>LaTeX - Category - Chandra Kundu | Personal Website</title>
+    <link>https://chandrakundu.github.io/categories/latex/</link>
+    <description>LaTeX - Category | Chandra Kundu | Personal Website</description>
+    <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 16 Nov 2023 20:53:47 -0500</lastBuildDate><atom:link href="https://chandrakundu.github.io/categories/latex/" rel="self" type="application/rss+xml" /><item>
+  <title>LaTeX Tips for Effective Typesetting</title>
+  <link>https://chandrakundu.github.io/posts/latex-tips-for-effective-typesetting/</link>
+  <pubDate>Thu, 16 Nov 2023 20:53:47 -0500</pubDate>
+  <author>Author</author>
+  <guid>https://chandrakundu.github.io/posts/latex-tips-for-effective-typesetting/</guid>
+  <description><![CDATA[<div class="featured-image"><img loading="eager" src="latex_cover_photo.png" alt="LaTeX Tips for Effective Typesetting" title="LaTeX Tips for Effective Typesetting" referrerpolicy="no-referrer"/></div>LaTeX is a powerful typesetting system used extensively for scientific documents, academic papers, and any situation which requires precision in presentation. Below are some effective tips and tricks to enhance your LaTeX typesetting, ensuring consistency and clarity in your documents.
+Keeping Text Together and Box UsageEnsuring Word Cohesion with mbox and fboxTo prevent LaTeX from breaking up text between lines or pages, you can use the \mbox{} command, which will keep the text inside intact regardless of formatting.]]></description>
+</item>
+</channel>
+</rss>

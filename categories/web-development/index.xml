@@ -1,0 +1,19 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Web Development - Category - Chandra Kundu | Personal Website</title>
+    <link>https://chandrakundu.github.io/categories/web-development/</link>
+    <description>Web Development - Category | Chandra Kundu | Personal Website</description>
+    <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 01 Oct 2023 00:37:12 -0400</lastBuildDate><atom:link href="https://chandrakundu.github.io/categories/web-development/" rel="self" type="application/rss+xml" /><item>
+  <title>Create Website with Blog using Hugo on Windows</title>
+  <link>https://chandrakundu.github.io/posts/creating-website-with-hugo-on-windows/</link>
+  <pubDate>Sun, 01 Oct 2023 00:37:12 -0400</pubDate>
+  <author>Author</author>
+  <guid>https://chandrakundu.github.io/posts/creating-website-with-hugo-on-windows/</guid>
+  <description><![CDATA[<div class="featured-image"><img loading="eager" src="hugo_cover.webp" alt="Create Website with Blog using Hugo on Windows" title="Create Website with Blog using Hugo on Windows" referrerpolicy="no-referrer"/></div>Hugo is a popular open-source static site generator (SSG) that&rsquo;s known for its speed, flexibility, and ease of use. In this post, I&rsquo;ll walk you through the process of creating a website using Hugo on Windows.
+Installing HugoUsing wingetInstall Hugo:
+Open PowerShell as an administrator. Run winget install Hugo. Verify Installation:
+Run hugo version in PowerShell to verify the installation. Manual InstallationDownload Hugo:
+To install Hugo, you can clone the repository: git clone https://github.]]></description>
+</item>
+</channel>
+</rss>

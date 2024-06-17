@@ -1,0 +1,26 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>AI - Category - Chandra Kundu | Personal Website</title>
+    <link>https://chandrakundu.github.io/categories/ai/</link>
+    <description>AI - Category | Chandra Kundu | Personal Website</description>
+    <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 12 Jun 2024 00:37:12 -1200</lastBuildDate><atom:link href="https://chandrakundu.github.io/categories/ai/" rel="self" type="application/rss+xml" /><item>
+  <title>How to Generate Images Locally Using Open Source AI Models</title>
+  <link>https://chandrakundu.github.io/posts/how-to-generate-images-locally-using-open-source-ai-models/</link>
+  <pubDate>Wed, 12 Jun 2024 00:37:12 -1200</pubDate>
+  <author>Author</author>
+  <guid>https://chandrakundu.github.io/posts/how-to-generate-images-locally-using-open-source-ai-models/</guid>
+  <description><![CDATA[<div class="featured-image"><img loading="eager" src="invoke-ai.png" alt="How to Generate Images Locally Using Open Source AI Models" title="How to Generate Images Locally Using Open Source AI Models" referrerpolicy="no-referrer"/></div>Generating images locally using open-source AI models is a fascinating way to leverage AI&rsquo;s creative potential. Among the available tools, Invoke AI stands out due to its ease of installation and robust features. While Automatic1111 is popular, Invoke AI offers a more streamlined experience for beginners and advanced users alike. Here&rsquo;s a guide to help you set up and run Invoke AI on your local Windows computer.
+PrerequisitesBefore diving into the installation process, ensure you have the following:]]></description>
+</item>
+<item>
+  <title>How to create a chatbot like ChatGPT by running LLM locally in Windows via Ollama and Open WebUI</title>
+  <link>https://chandrakundu.github.io/posts/how-to-create-ai-chatbot/</link>
+  <pubDate>Wed, 12 Jun 2024 00:37:12 -0400</pubDate>
+  <author>Author</author>
+  <guid>https://chandrakundu.github.io/posts/how-to-create-ai-chatbot/</guid>
+  <description><![CDATA[<div class="featured-image"><img loading="eager" src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*fot7Pg4wbBALlLQzQBzumQ.png" alt="How to create a chatbot like ChatGPT by running LLM locally in Windows via Ollama and Open WebUI" title="How to create a chatbot like ChatGPT by running LLM locally in Windows via Ollama and Open WebUI" referrerpolicy="no-referrer"/></div>In this post we will see that how to create a chatbot like ChatGPT by running Large Language Model (LLM) locally in Windows via Ollama and Open WebUI
+Creating a chatbot that runs a large language model (LLM) on your local machine can be done in several ways. Here are some methods you might consider:
+Using API and Programming: This approach is often difficult and time-consuming. Chatbot UI: This method requires API access from OpenAI.]]></description>
+</item>
+</channel>
+</rss>

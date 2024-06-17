@@ -3,5 +3,37 @@
     <title>Categories - Category - Chandra Kundu | Personal Website</title>
     <link>https://chandrakundu.github.io/categories/</link>
     <description>Categories - Category | Chandra Kundu | Personal Website</description>
-    <generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://chandrakundu.github.io/categories/" rel="self" type="application/rss+xml" /></channel>
+    <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 16 Jun 2024 23:22:00 -0400</lastBuildDate><atom:link href="https://chandrakundu.github.io/categories/" rel="self" type="application/rss+xml" /><item>
+  <title>Python</title>
+  <link>https://chandrakundu.github.io/categories/python/</link>
+  <pubDate>Sun, 16 Jun 2024 23:22:00 -0400</pubDate>
+  <author>Author</author>
+  <guid>https://chandrakundu.github.io/categories/python/</guid>
+  <description><![CDATA[]]></description>
+</item>
+<item>
+  <title>AI</title>
+  <link>https://chandrakundu.github.io/categories/ai/</link>
+  <pubDate>Wed, 12 Jun 2024 00:37:12 -1200</pubDate>
+  <author>Author</author>
+  <guid>https://chandrakundu.github.io/categories/ai/</guid>
+  <description><![CDATA[]]></description>
+</item>
+<item>
+  <title>LaTeX</title>
+  <link>https://chandrakundu.github.io/categories/latex/</link>
+  <pubDate>Thu, 16 Nov 2023 20:53:47 -0500</pubDate>
+  <author>Author</author>
+  <guid>https://chandrakundu.github.io/categories/latex/</guid>
+  <description><![CDATA[]]></description>
+</item>
+<item>
+  <title>Web Development</title>
+  <link>https://chandrakundu.github.io/categories/web-development/</link>
+  <pubDate>Sun, 01 Oct 2023 00:37:12 -0400</pubDate>
+  <author>Author</author>
+  <guid>https://chandrakundu.github.io/categories/web-development/</guid>
+  <description><![CDATA[]]></description>
+</item>
+</channel>
 </rss>
