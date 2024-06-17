@@ -4,12 +4,21 @@
     <link>https://chandrakundu.github.io/posts/</link>
     <description>All Posts | Chandra Kundu | Personal Website</description>
     <generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://chandrakundu.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+  <title>How to Keep Remote Servers Running with Tmux for Days Even If You Close Your Terminal</title>
+  <link>https://chandrakundu.github.io/posts/tmux-guide-and-cheat-sheet/</link>
+  <pubDate>Mon, 17 Jun 2024 00:01:00 -0400</pubDate>
+  <author>Author</author>
+  <guid>https://chandrakundu.github.io/posts/tmux-guide-and-cheat-sheet/</guid>
+  <description><![CDATA[Tmux is a powerful terminal multiplexer that allows you to manage multiple terminal sessions within a single window. This capability is incredibly useful for keeping remote servers running for days, even if you close your terminal. In this cheat sheet, we&rsquo;ll cover essential commands and keyboard shortcuts to help you get started with Tmux.
+Why Tmux is UsefulRun and manage multiple terminal sessions within a single window. Easily switch between them using keyboard shortcuts.]]></description>
+</item>
+<item>
   <title>Handling Relative Paths in Python Projects</title>
   <link>https://chandrakundu.github.io/posts/handling-relative-paths-in-python-projects/</link>
   <pubDate>Sun, 16 Jun 2024 23:22:00 -0400</pubDate>
   <author>Author</author>
   <guid>https://chandrakundu.github.io/posts/handling-relative-paths-in-python-projects/</guid>
-  <description><![CDATA[<div class="featured-image"><img loading="eager" src="invoke-ai.png" alt="Handling Relative Paths in Python Projects" title="Handling Relative Paths in Python Projects" referrerpolicy="no-referrer"/></div>Working on Python projects often requires managing complex directory structures and handling relative paths efficiently. In this blog post, we will explore common issues related to handling relative paths and provide solutions to ensure your scripts run smoothly, regardless of how and where they are executed.
+  <description><![CDATA[Working on Python projects often requires managing complex directory structures and handling relative paths efficiently. In this blog post, we will explore common issues related to handling relative paths and provide solutions to ensure your scripts run smoothly, regardless of how and where they are executed.
 Project StructureBefore diving into the details, let&rsquo;s first understand the typical structure of a Python project. A Python project usually consists of the following directories:]]></description>
 </item>
 <item>
