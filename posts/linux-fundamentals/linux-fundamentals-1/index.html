@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/WebPage" lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <meta name="robots" content="noodp" />
+    <title>Linux Fundamentals 1 - Chandra Kundu | Personal Website</title><meta name="author" content="">
+<meta name="author-link" content="">
+<meta name="description" content="Linux is a operating system like OS X and Windows, however much more lightweight. It is built upon UNIX, which is an open-source operating system. Two of the most common distribution of Linux are Ubuntu and Debian.
+Useful links:
+Command line reference: https://ss64.com/bash Let&rsquo;s get started with some of the most useful commands in Linux:
+echo - Outputs text to the terminal.
+1 2 user@linux:~$ echo &#34;Hello, World!&#34; Hello, World! whoami - Prints the username of the current user." /><meta name="keywords" content='Bash, Files, Directories, Commands, Permissions, Operators' /><meta itemprop="name" content="Linux Fundamentals 1">
+<meta itemprop="description" content="Linux is a operating system like OS X and Windows, however much more lightweight. It is built upon UNIX, which is an open-source operating system. Two of the most common distribution of Linux are Ubuntu and Debian.
+Useful links:
+Command line reference: https://ss64.com/bash Let&rsquo;s get started with some of the most useful commands in Linux:
+echo - Outputs text to the terminal.
+1 2 user@linux:~$ echo &#34;Hello, World!&#34; Hello, World! whoami - Prints the username of the current user."><meta itemprop="datePublished" content="2022-04-12T00:37:12-04:00" />
+<meta itemprop="dateModified" content="2022-04-12T00:37:12-04:00" />
+<meta itemprop="wordCount" content="1389"><meta itemprop="image" content="https://chandrakundu.github.io/chandra-kundu.png"/>
+<meta itemprop="keywords" content="" /><meta property="og:title" content="Linux Fundamentals 1" />
+<meta property="og:description" content="Linux is a operating system like OS X and Windows, however much more lightweight. It is built upon UNIX, which is an open-source operating system. Two of the most common distribution of Linux are Ubuntu and Debian.
+Useful links:
+Command line reference: https://ss64.com/bash Let&rsquo;s get started with some of the most useful commands in Linux:
+echo - Outputs text to the terminal.
+1 2 user@linux:~$ echo &#34;Hello, World!&#34; Hello, World! whoami - Prints the username of the current user." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://chandrakundu.github.io/posts/linux-fundamentals/linux-fundamentals-1/" /><meta property="og:image" content="https://chandrakundu.github.io/chandra-kundu.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-04-12T00:37:12-04:00" />
+<meta property="article:modified_time" content="2022-04-12T00:37:12-04:00" /><meta property="og:site_name" content="Chandra Kundu | Personal Website" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://chandrakundu.github.io/chandra-kundu.png"/>
+
+<meta name="twitter:title" content="Linux Fundamentals 1"/>
+<meta name="twitter:description" content="Linux is a operating system like OS X and Windows, however much more lightweight. It is built upon UNIX, which is an open-source operating system. Two of the most common distribution of Linux are Ubuntu and Debian.
+Useful links:
+Command line reference: https://ss64.com/bash Let&rsquo;s get started with some of the most useful commands in Linux:
+echo - Outputs text to the terminal.
+1 2 user@linux:~$ echo &#34;Hello, World!&#34; Hello, World! whoami - Prints the username of the current user."/>
+<meta name="application-name" content="Chandra Kundu | Personal Website">
+<meta name="apple-mobile-web-app-title" content="Chandra Kundu | Personal Website"><meta name="theme-color" data-light="#ffffff" data-dark="#ffffff" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" href="https://chandrakundu.github.io/posts/linux-fundamentals/linux-fundamentals-1/" /><link rel="prev" href="https://chandrakundu.github.io/posts/linux-fundamentals/linux-fundamentals-2/" /><link rel="next" href="https://chandrakundu.github.io/posts/creating-website-with-hugo-on-windows/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><meta name="google-site-verification" content="0jwgmOu3-q1Tr-PJlcVJTwxYw-d9yLM7nyySKD9W85Y" /><script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Linux Fundamentals 1",
+    "inLanguage": "en",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https:\/\/chandrakundu.github.io\/posts\/linux-fundamentals\/linux-fundamentals-1\/"
+    },"image": [],"genre": "posts","wordcount":  1389 ,
+    "url": "https:\/\/chandrakundu.github.io\/posts\/linux-fundamentals\/linux-fundamentals-1\/","datePublished": "2022-04-12T00:37:12-04:00","dateModified": "2022-04-12T00:37:12-04:00","publisher": {
+      "@type": "Organization",
+      "name": ""},"author": {
+        "@type": "Person",
+        "name": "Chandra Kundu"
+      },"description": ""
+  }
+  </script></head>
+  <body data-header-desktop="fixed" data-header-mobile="auto"><script>(window.localStorage?.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('data-theme', 'dark');</script><div class="wrapper" data-page-style="normal"><header class="desktop animate__faster" id="header-desktop">
+  <div class="header-wrapper">
+    <div class="header-title">
+      <a href="/" title="Chandra Kundu | Personal Website"><span class="header-title-text">Chandra Kundu</span></a><span class="header-subtitle"></span></div>
+    <nav>
+      <ul class="menu"><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/posts/"
+                
+                
+              >Posts</a></li><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/about/"
+                
+                
+              >About</a></li><li class="menu-item delimiter"></li><li class="menu-item search" id="search-desktop">
+            <input type="text" placeholder="Search titles or contents ..." id="search-input-desktop">
+            <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+              <i class="fa-solid fa-search fa-fw" aria-hidden="true"></i>
+            </a>
+            <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+              <i class="fa-solid fa-times-circle fa-fw" aria-hidden="true"></i>
+            </a>
+            <span class="search-button search-loading" id="search-loading-desktop">
+              <i class="fa-solid fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+            </span>
+          </li><li class="menu-item theme-switch" title="Switch Theme">
+          <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+        </li></ul>
+    </nav>
+  </div>
+</header><header class="mobile animate__faster" id="header-mobile">
+  <div class="header-container">
+    <div class="header-wrapper">
+      <div class="header-title">
+        <a href="/" title="Chandra Kundu | Personal Website"><span class="header-title-text">Chandra Kundu</span></a><span class="header-subtitle"></span></div>
+      <div class="menu-toggle" id="menu-toggle-mobile">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+    <nav>
+      <ul class="menu" id="menu-mobile"><li class="search-wrapper">
+            <div class="search mobile" id="search-mobile">
+              <input type="text" placeholder="Search titles or contents ..." id="search-input-mobile">
+              <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                <i class="fa-solid fa-search fa-fw" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                <i class="fa-solid fa-times-circle fa-fw" aria-hidden="true"></i>
+              </a>
+              <span class="search-button search-loading" id="search-loading-mobile">
+                <i class="fa-solid fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+              </span>
+            </div>
+            <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+              Cancel
+            </a>
+          </li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/posts/"
+                  
+                  
+                >Posts</a></li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/about/"
+                  
+                  
+                >About</a></li><li class="menu-item menu-system">
+          <span class="menu-system-item theme-switch" title="Switch Theme"><i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i></span></li>
+      </ul>
+    </nav>
+  </div>
+</header><div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+  </div>
+  <div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+  </div><main class="container"><aside class="aside-collection animate__animated animate__fadeIn animate__faster" aria-label="Collections"></aside>
+
+  <article class="page single">
+    <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span>Linux Fundamentals 1</span>
+      </h1></div><div class="post-meta">
+      <div class="post-meta-line"><span class="post-author"><span class="author"><i class="fa-solid fa-user-circle" aria-hidden="true"></i>
+      Chandra Kundu</span></span><span class="post-included-in">&nbsp;included in <a href="/categories/linux/" class="post-category" title="Category - Linux"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> Linux</a></span></div><div class="post-meta-line"><span title="published on 2022-04-12 00:37:12"><i class="fa-solid fa-calendar-days fa-fw me-1" aria-hidden="true"></i><time datetime="2022-04-12">2022-04-12</time></span>&nbsp;<span title="1389 words"><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>About 1400 words</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>7 minutes</span>&nbsp;</div>
+    </div><div class="featured-image"><img loading="lazy" src="/posts/linux-fundamentals/linux-fundamentals-1/linux-terminal.png" alt="/posts/linux-fundamentals/linux-fundamentals-1/linux-terminal.png" data-title="/posts/linux-fundamentals/linux-fundamentals-1/linux-terminal.png" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></div><div class="details toc" id="toc-static" data-kept="false">
+        <div class="details-summary toc-title">
+          <span>Contents</span>
+          <span><i class="details-icon fa-solid fa-angle-right" aria-hidden="true"></i></span>
+        </div>
+        <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#interacting-with-files-and-directories">Interacting with Files and Directories</a>
+      <ul>
+        <li><a href="#ls">ls</a></li>
+        <li><a href="#cd">cd</a></li>
+        <li><a href="#pwd">pwd</a></li>
+        <li><a href="#mkdir">mkdir</a></li>
+        <li><a href="#rm">rm</a></li>
+        <li><a href="#rmdir">rmdir</a></li>
+        <li><a href="#cp">cp</a></li>
+        <li><a href="#mv">mv</a></li>
+        <li><a href="#touch">touch</a></li>
+        <li><a href="#cat">cat</a></li>
+        <li><a href="#find">find</a></li>
+        <li><a href="#grep">grep</a></li>
+        <li><a href="#head-and-tail">head and tail</a></li>
+        <li><a href="#less">less</a></li>
+      </ul>
+    </li>
+    <li><a href="#introduction-to-shell-operators">Introduction to shell operators</a>
+      <ul>
+        <li><a href="#heading">&amp;</a></li>
+        <li><a href="#heading-1">&amp;&amp;</a></li>
+        <li><a href="#heading-2">&gt;</a></li>
+        <li><a href="#heading-3">&raquo;</a></li>
+        <li><a href="#heading-4">|</a></li>
+      </ul>
+    </li>
+    <li><a href="#file-permissions-in-linux">File Permissions in Linux</a>
+      <ul>
+        <li><a href="#chmod">chmod</a></li>
+        <li><a href="#chown">chown</a></li>
+      </ul>
+    </li>
+    <li><a href="#common-directories">Common Directories</a></li>
+  </ul>
+</nav></div>
+      </div><div class="content" id="content"><p>Linux is a operating system like OS X and Windows, however much more lightweight. It is built upon UNIX, which is an open-source operating system. Two of the most common distribution of Linux are Ubuntu and Debian.</p>
+<p>Useful links:</p>
+<ul>
+<li>Command line reference: <a href="ss64.com/bash">https://ss64.com/bash</a></li>
+</ul>
+<p>Let&rsquo;s get started with some of the most useful commands in Linux:</p>
+<p><strong>echo</strong> - Outputs text to the terminal.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">user@linux:~$ <span class="nb">echo</span> <span class="s2">&#34;Hello, World!&#34;</span>
+</span></span><span class="line"><span class="cl">Hello, World!</span></span></code></pre></td></tr></table>
+</div>
+</div><p><strong>whoami</strong> - Prints the username of the current user.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">user@linux:~$ whoami
+</span></span><span class="line"><span class="cl">user</span></span></code></pre></td></tr></table>
+</div>
+</div><p><strong>man</strong> - Displays the manual page of a command.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">user@linux:~$ man ls</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="interacting-with-files-and-directories" class="heading-element"><span>Interacting with Files and Directories</span>
+  <a href="#interacting-with-files-and-directories" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><h3 id="ls" class="heading-element"><span>ls</span>
+  <a href="#ls" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ul>
+<li>Lists all files and directories in the current directory.
+<ul>
+<li>To list files and directories in long format with human-readable file sizes:
+<ul>
+<li><code>ls -lh</code> (current directory)</li>
+<li><code>ls -lh /usr/bin</code> (specific directory)</li>
+<li><code>ls -lh *.txt</code> (specific file type)</li>
+<li><code>ls -lh file*</code> (specific file name)</li>
+<li><code>ls -lh /usr/bin &gt; file1.txt</code> (redirecting the output to a file)</li>
+<li><code>ls -al</code> (lists all files and directories, including hidden ones)</li>
+<li><code>ls -lASh</code> (lists files and directories in long format, sorted by size, and human-readable file sizes)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-a</td>
+<td>Lists all files and directories, including hidden ones.</td>
+</tr>
+<tr>
+<td>-l</td>
+<td>Lists files and directories in long format.</td>
+</tr>
+<tr>
+<td>-h</td>
+<td>Makes file sizes human-readable.</td>
+</tr>
+<tr>
+<td>-t</td>
+<td>Sorts files and directories by modification time.</td>
+</tr>
+<tr>
+<td>-lh</td>
+<td>Lists files and directories in long format with human-readable file sizes.</td>
+</tr>
+<tr>
+<td>-F</td>
+<td>Appends a character to the end of each file name to indicate the type of file.</td>
+</tr>
+<tr>
+<td>-R</td>
+<td>Lists files and directories recursively.</td>
+</tr>
+<tr>
+<td>-S</td>
+<td>Sorts files and directories by size.</td>
+</tr>
+<tr>
+<td>-A</td>
+<td>Lists files and directories, excluding <code>.</code> and <code>..</code>.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="cd" class="heading-element"><span>cd</span>
+  <a href="#cd" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ul>
+<li>Changes the current directory.</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">user@linux:~$ <span class="nb">cd</span> Documents
+</span></span><span class="line"><span class="cl">user@linux:~/Documents$</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li><code>cd ..</code> can be used to move up one directory.</li>
+<li><code>cd</code> can also be used to move to absolute paths, like <code>cd /usr/bin</code>.</li>
+</ul>
+<h3 id="pwd" class="heading-element"><span>pwd</span>
+  <a href="#pwd" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ul>
+<li>Prints the current working directory.</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">user@linux:~$ <span class="nb">pwd</span>
+</span></span><span class="line"><span class="cl">/home/user</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="mkdir" class="heading-element"><span>mkdir</span>
+  <a href="#mkdir" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ul>
+<li>Creates a new directory.
+<ul>
+<li><code>mkdir new_directory</code> creates a new directory named <code>new_directory</code>.</li>
+</ul>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-p</td>
+<td>Creates parent directories as needed. <code>mkdir -p directory1/directory2/directory3</code></td>
+</tr>
+<tr>
+<td>-v</td>
+<td>Displays a message for each directory created. <code>mkdir -pv directory1/directory2/directory3</code></td>
+</tr>
+<tr>
+<td>-m</td>
+<td>Sets the permissions for the directory. <code>mkdir -m 777 new_directory</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="rm" class="heading-element"><span>rm</span>
+  <a href="#rm" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ul>
+<li>Removes files or directories. It does not move files to the trash, it deletes them permanently.</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">user@linux:~$ rm file1.txt</span></span></code></pre></td></tr></table>
+</div>
+</div><table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-r</td>
+<td>Removes directories and their contents recursively.</td>
+</tr>
+<tr>
+<td>-f</td>
+<td>Removes files without prompting for confirmation.</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>To remove a directory and its contents: <code>rm -r directory1</code></li>
+<li>To remove multiple files: <code>rm file1.txt file2.txt</code></li>
+<li>To remove all files with a specific extension: <code>rm *.txt</code></li>
+<li>To remove all files starting with a specific name: <code>rm file*</code></li>
+<li>To remove all files in a directory: <code>rm *</code></li>
+</ul>
+<h3 id="rmdir" class="heading-element"><span>rmdir</span>
+  <a href="#rmdir" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ul>
+<li>Removes empty directories.
+<ul>
+<li><code>rmdir *</code> removes all empty directories in the current directory.</li>
+</ul>
+</li>
+</ul>
+<h3 id="cp" class="heading-element"><span>cp</span>
+  <a href="#cp" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ul>
+<li>Copies files and directories.</li>
+<li><code>cp file1.txt directory1</code> copies the file to the directory.</li>
+<li><code>cp file1.txt file2.txt</code> copies the file.</li>
+<li><code>cp -i file1.txt directory1</code> prompts for confirmation before overwriting files.</li>
+<li><code>cp -r directory1 directory2</code> copies directories and their contents recursively.</li>
+</ul>
+<h3 id="mv" class="heading-element"><span>mv</span>
+  <a href="#mv" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ul>
+<li>Moves files and directories.
+<ul>
+<li><code>mv file1.txt directory1</code> moves the file to the directory.</li>
+<li><code>mv file1.txt file2.txt</code> renames the file.</li>
+<li><code>mv directory1 directory2</code> moves the directory.</li>
+<li><code>mv -i file1.txt directory1</code> prompts for confirmation before overwriting files.</li>
+</ul>
+</li>
+</ul>
+<h3 id="touch" class="heading-element"><span>touch</span>
+  <a href="#touch" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ul>
+<li>Creates an empty file.
+<ul>
+<li><code>touch file1.txt</code> creates a new file named <code>file1.txt</code>.</li>
+</ul>
+</li>
+</ul>
+<h3 id="cat" class="heading-element"><span>cat</span>
+  <a href="#cat" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ul>
+<li>Reads and displays the contents of files sequentially.</li>
+</ul>
+<p><strong>For example:</strong> To read contents of a file named <code>file1.txt</code> and <code>file2.txt</code>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">user@linux:~$ cat file1.txt
+</span></span><span class="line"><span class="cl">This is file1</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>to display line numbers with the contents of the file, use the <code>-n</code> option. <code>cat -n filename</code></li>
+<li>to concatenate the contents of two files and store them in a new file, use the <code>&gt;</code> operator. <code>cat file1.txt file2.txt &gt; file3.txt</code></li>
+<li>to append the contents of a file to another file, use the <code>&gt;&gt;</code> operator. <code>cat file1.txt &gt;&gt; file2.txt</code></li>
+<li>to display the contents of a file in reverse order, use the <code>tac</code> command. <code>tac filename</code></li>
+</ul>
+<h3 id="find" class="heading-element"><span>find</span>
+  <a href="#find" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ul>
+<li>Searches for files and directories.</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">user@linux:~$ find / -name file1.txt
+</span></span><span class="line"><span class="cl">./home/user/Documents/file1.txt</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>To search every <code>txt</code> files: <code>find / -name &quot;*.txt&quot;</code>. Remember to use quotes.</li>
+<li>To search files whose name starts with fi: <code>find / -name &quot;fi*&quot;</code></li>
+</ul>
+<h3 id="grep" class="heading-element"><span>grep</span>
+  <a href="#grep" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ul>
+<li><code>grep</code> shorts for <strong>Global Regular Expression Print</strong>. It searches for a pattern in a file or files.</li>
+</ul>
+<p>let&rsquo;s we have a file named <code>file1.txt</code> with the following content:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">This is file1 with example content. 
+</span></span><span class="line"><span class="cl">this is the line 2. </span></span></code></pre></td></tr></table>
+</div>
+</div><p>To search for the word <code>example</code> in the file, use the following command:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">user@linux:~$ grep <span class="s2">&#34;example&#34;</span> file1.txt
+</span></span><span class="line"><span class="cl">This is file1 with example content.</span></span></code></pre></td></tr></table>
+</div>
+</div><table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-i</td>
+<td>Ignores case.</td>
+</tr>
+<tr>
+<td>-n</td>
+<td>Displays line numbers.</td>
+</tr>
+<tr>
+<td>-c</td>
+<td>Displays the count of matching lines.</td>
+</tr>
+<tr>
+<td>-r</td>
+<td>Searches recursively in directories.</td>
+</tr>
+<tr>
+<td>-lr</td>
+<td>Displays only the names of files with matching lines, recursively.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="head-and-tail" class="heading-element"><span>head and tail</span>
+  <a href="#head-and-tail" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ul>
+<li><code>head</code> Displays the first few lines of a file.
+<ul>
+<li><code>head file1.txt</code> displays the first 10 lines of the file.</li>
+<li><code>head -n 5 file1.txt</code> displays the first 5 lines of the file.</li>
+</ul>
+</li>
+<li><code>tail</code> Displays the last few lines of a file.
+<ul>
+<li><code>tail file1.txt</code> displays the last 10 lines of the file.</li>
+<li><code>tail -n 5 file1.txt</code> displays the last 5 lines of the file.</li>
+</ul>
+</li>
+</ul>
+<h3 id="less" class="heading-element"><span>less</span>
+  <a href="#less" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ul>
+<li>Displays the contents of a file one page at a time.
+<ul>
+<li><code>less file1.txt</code> displays the contents of the file.</li>
+<li>Press <code>q</code> to exit the <code>less</code> command.</li>
+</ul>
+</li>
+</ul>
+<h2 id="introduction-to-shell-operators" class="heading-element"><span>Introduction to shell operators</span>
+  <a href="#introduction-to-shell-operators" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><h3 id="heading" class="heading-element"><span>&amp;</span>
+  <a href="#heading" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ul>
+<li>Runs a command in the background. <code>command &amp;</code></li>
+</ul>
+<h3 id="heading-1" class="heading-element"><span>&amp;&amp;</span>
+  <a href="#heading-1" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ul>
+<li>Runs a command only if the previous command was successful. <code>command1 &amp;&amp; command2</code></li>
+</ul>
+<h3 id="heading-2" class="heading-element"><span>&gt;</span>
+  <a href="#heading-2" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ul>
+<li>Redirects the output of a command to a file. If the file already exists, it is overwritten. <code>command &gt; file1.txt</code></li>
+</ul>
+<h3 id="heading-3" class="heading-element"><span>&raquo;</span>
+  <a href="#heading-3" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ul>
+<li>Appends the output of a command to a file. If the file already exists, the output is appended to the end. <code>command &gt;&gt; file1.txt</code></li>
+</ul>
+<h3 id="heading-4" class="heading-element"><span>|</span>
+  <a href="#heading-4" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ul>
+<li>Pipes the output of one command to another command.
+<ul>
+<li><code>command1 | command2</code> pipes the output of <code>command1</code> to <code>command2</code>.</li>
+<li><code>ls -l | grep &quot;.txt&quot;</code> lists all files in the current directory and pipes the output to <code>grep</code> to search for files with the <code>.txt</code> extension.</li>
+<li><code>ps aux --sort=-%mem | head -n 5</code> lists the top 5 processes consuming the most memory.</li>
+<li><code>du -h | sort -rh | head -n 5</code> lists the top 5 directories consuming the most disk space.</li>
+</ul>
+</li>
+</ul>
+<h2 id="file-permissions-in-linux" class="heading-element"><span>File Permissions in Linux</span>
+  <a href="#file-permissions-in-linux" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><ul>
+<li>
+<p>In Linux, each file and directory has three types of permissions: read, write, and execute. These permissions are assigned to three entities: the owner, the group, and others.</p>
+</li>
+<li>
+<p>To view the permissions of a file or directory, use the <code>ls -l</code> command.</p>
+</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">user@linux:~$ ls -l file1.txt
+</span></span><span class="line"><span class="cl">-rw-r--r-- <span class="m">1</span> user user <span class="m">0</span> Jun <span class="m">12</span> 00:37 file1.txt</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>
+<p><code>-</code> indicates a regular file. <code>rw-</code> indicates that the owner has read and write permissions. <code>r--</code> indicates that the group has read permissions. <code>r--</code> indicates that others have read permissions.</p>
+</li>
+<li>
+<p>Numeric values are used to represent permissions.</p>
+<ul>
+<li><code>r</code> is represented by <code>4</code>, <code>w</code> is represented by <code>2</code>, and <code>x</code> is represented by <code>1</code>.</li>
+<li><code>rwx</code> is represented by <code>7</code>, <code>rw-</code> is represented by <code>6</code>, <code>r-x</code> is represented by <code>5</code>, and <code>r--</code> is represented by <code>4</code>, <code>---</code> is represented by <code>0</code>.</li>
+</ul>
+</li>
+</ul>
+<p>Some Basic Permissions:</p>
+<table>
+<thead>
+<tr>
+<th>Symbolic Representation</th>
+<th>Numeric Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>rw-r&ndash;r&ndash;</td>
+<td>644</td>
+<td>Read and write permissions for the owner, read permissions for the group and others.</td>
+</tr>
+<tr>
+<td>rwxr-xr-x</td>
+<td>755</td>
+<td>Read, write, and execute permissions for the owner, read and execute permissions for the group and others.</td>
+</tr>
+<tr>
+<td>rwxrwxrwx</td>
+<td>777</td>
+<td>Read, write, and execute permissions for the owner, group, and others.</td>
+</tr>
+<tr>
+<td>rw-rw-rw-</td>
+<td>666</td>
+<td>Read and write permissions for the owner, group, and others.</td>
+</tr>
+<tr>
+<td>rwx&mdash;&mdash;</td>
+<td>700</td>
+<td>Read, write, and execute permissions for the owner only.</td>
+</tr>
+<tr>
+<td>r&mdash;&mdash;&ndash;</td>
+<td>400</td>
+<td>Read permissions for the owner only.</td>
+</tr>
+<tr>
+<td>r-x&mdash;&mdash;</td>
+<td>500</td>
+<td>Read and execute permissions for the owner only.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="chmod" class="heading-element"><span>chmod</span>
+  <a href="#chmod" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ul>
+<li>Changes the permissions of a file or directory.
+<ul>
+<li><code>chmod 777 file1.txt</code> grants read, write, and execute permissions to the owner, group, and others.</li>
+<li><code>chmod 755 file1.txt</code> grants read, write, and execute permissions to the owner and read and execute permissions to the group and others.</li>
+</ul>
+</li>
+</ul>
+<h3 id="chown" class="heading-element"><span>chown</span>
+  <a href="#chown" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ul>
+<li>Changes the owner of a file or directory.
+<ul>
+<li><code>chown user1 file1.txt</code> changes the owner of the file to <code>user1</code>.</li>
+<li><code>chown user1:group1 file1.txt</code> changes the owner and group of the file to <code>user1</code> and <code>group1</code>.</li>
+</ul>
+</li>
+</ul>
+<h2 id="common-directories" class="heading-element"><span>Common Directories</span>
+  <a href="#common-directories" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><ul>
+<li><code>/etc</code> - Contains system-wide configuration files.</li>
+<li><code>/var</code> - Contains variable data files, such as logs and databases.</li>
+<li><code>/tmp</code> - Contains temporary files. Once the system is rebooted, the files are deleted.</li>
+<li><code>/root</code> - Home directory of the root user.</li>
+</ul>
+</div><div class="post-footer" id="post-footer">
+  <div class="post-info">
+    <div class="post-info-line">
+      <div class="post-info-mod">
+        <span title="Updated on 2022-04-12 00:37:12">Updated on 2022-04-12&nbsp;</span>
+      </div><div class="post-info-license">
+            <span><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span>
+          </div></div><div class="post-info-line">
+        <div class="post-info-md"></div>
+        <div class="post-info-share">
+          <span><a href="javascript:void(0);" title="Share on X" data-sharer="twitter" data-url="https://chandrakundu.github.io/posts/linux-fundamentals/linux-fundamentals-1/" data-title="Linux Fundamentals 1"><i class="fa-brands fa-x-twitter fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://chandrakundu.github.io/posts/linux-fundamentals/linux-fundamentals-1/"><i class="fa-brands fa-facebook-square fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://chandrakundu.github.io/posts/linux-fundamentals/linux-fundamentals-1/"><i class="fa-brands fa-linkedin fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="https://chandrakundu.github.io/posts/linux-fundamentals/linux-fundamentals-1/" data-title="Linux Fundamentals 1" data-web><i class="fa-brands fa-whatsapp fa-fw" aria-hidden="true"></i></a>
+  </span>
+        </div>
+      </div></div>
+
+  <div class="post-info-more">
+    <section class="post-tags"></section>
+    <section>
+      <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+    </section>
+  </div>
+
+  <div class="post-nav"><a href="/posts/linux-fundamentals/linux-fundamentals-2/" class="post-nav-item" rel="prev" title="Linux Fundamentals 2"><i class="fa-solid fa-angle-left fa-fw" aria-hidden="true"></i>Linux Fundamentals 2</a>
+      <a href="/posts/creating-website-with-hugo-on-windows/" class="post-nav-item" rel="next" title="Create Website With Blog Using Hugo on Windows">Create Website With Blog Using Hugo on Windows<i class="fa-solid fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+<div id="comments"><div id="disqus_thread" class="comment"></div><noscript>
+        Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript" rel="external nofollow noopener noreferrer">Disqus</a>.
+      </noscript></div></article>
+
+  <aside class="toc" id="toc-auto" aria-label="Contents"><h2 class="toc-title">Contents&nbsp;<i class="toc-icon fa-solid fa-angle-down fa-fw" aria-hidden="true"></i></h2>
+      <div class="toc-content" id="toc-content-auto"></div></aside></main><footer class="footer">
+    <div class="footer-container"><div class="footer-line powered">Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="Hugo 0.119.0"><img class="hugo-icon" src="/images/hugo.min.svg" alt="Hugo logo" /> Hugo</a> | Theme - <a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external" title="FixIt v0.3.8-RC"><img class="fixit-icon" src="/images/fixit.min.svg" alt="FixIt logo" /> FixIt</a>
+        </div><div class="footer-line copyright" itemscope itemtype="http://schema.org/CreativeWork"><i class="fa-regular fa-copyright fa-fw" aria-hidden="true"></i>
+            <span itemprop="copyrightYear">2019 - 2024</span><span class="author" itemprop="copyrightHolder">
+              <a href="/"></a></span><span class="license footer-divider"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div></div>
+  </footer></div><div class="widgets"><div class="fixed-buttons animate__faster d-none"><div class="fixed-button back-to-top" role="button" aria-label="Back to Top"><i class="fa-solid fa-arrow-up fa-fw" aria-hidden="true"></i><span class="variant-numeric d-none">0%</span>
+        </div><div class="fixed-button view-comments d-none" role="button" aria-label="View Comments"><i class="fa-solid fa-comment fa-fw" aria-hidden="true"></i></div></div><div id="mask"></div><div class="reading-progress-bar" style="left: 0;top: 0;"></div><noscript>
+    <div class="noscript-warning">यह वेबसाइट जावास्क्रिप्ट सक्षम होने पर सबसे अच्छा काम करती है।</div>
+  </noscript>
+</div><link rel="preload" href="/lib/katex/katex.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/katex/katex.min.css"></noscript><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script src="https://chandra-kundu-personal-website.disqus.com/embed.js" defer></script><script src="/lib/autocomplete/autocomplete.min.js" defer></script><script src="/lib/fuse/fuse.min.js" defer></script><script src="/lib/sharer/sharer.min.js" async defer></script><script src="/lib/katex/katex.min.js" defer></script><script src="/lib/katex/auto-render.min.js" defer></script><script src="/lib/katex/copy-tex.min.js" defer></script><script src="/lib/katex/mhchem.min.js" defer></script><script src="/lib/cookieconsent/cookieconsent.min.js" defer></script><script>window.config={"code":{"copyTitle":"Copy to clipboard","editLockTitle":"Lock editable code block","editUnLockTitle":"Unlock editable code block","editable":true,"maxShownLines":50},"comment":{"enable":true,"expired":false},"cookieconsent":{"content":{"dismiss":"Got it!","link":"Learn more","message":"This website uses Cookies to improve your experience."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"distance":100,"findAllMatches":false,"fuseIndexURL":"/index.json","highlightTag":"em","ignoreFieldNorm":false,"ignoreLocation":false,"isCaseSensitive":false,"location":0,"maxResultLength":10,"minMatchCharLength":2,"noResultsFound":"No results found","snippetLength":30,"threshold":0.3,"type":"fuse","useExtendedSearch":false},"version":"v0.3.8-RC"};</script><script src="/js/theme.min.js" defer></script></body>
+</html>

@@ -63,15 +63,26 @@ To install Hugo, you can clone the repository: git clone https://github.]]></des
 </item>
 <item>
   <title>Linux Fundamentals 1</title>
-  <link>https://chandrakundu.github.io/posts/linux-fundamentals-1/</link>
+  <link>https://chandrakundu.github.io/posts/linux-fundamentals/linux-fundamentals-1/</link>
   <pubDate>Tue, 12 Apr 2022 00:37:12 -0400</pubDate>
   <author>Author</author>
-  <guid>https://chandrakundu.github.io/posts/linux-fundamentals-1/</guid>
-  <description><![CDATA[<div class="featured-image"><img loading="eager" src="https://images.unsplash.com/photo-1629654291663-b91ad427698f?q=80&amp;w=2574&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Linux Fundamentals 1" title="Linux Fundamentals 1" referrerpolicy="no-referrer"/></div>Linux is a operating system like OS X and Windows, however much more lightweight. It is built upon UNIX, which is an open-source operating system. Two of the most common distribution of Linux are Ubuntu and Debian.
+  <guid>https://chandrakundu.github.io/posts/linux-fundamentals/linux-fundamentals-1/</guid>
+  <description><![CDATA[<div class="featured-image"><img loading="eager" src="linux-terminal.png" alt="Linux Fundamentals 1" title="Linux Fundamentals 1" referrerpolicy="no-referrer"/></div>Linux is a operating system like OS X and Windows, however much more lightweight. It is built upon UNIX, which is an open-source operating system. Two of the most common distribution of Linux are Ubuntu and Debian.
 Useful links:
 Command line reference: https://ss64.com/bash Let&rsquo;s get started with some of the most useful commands in Linux:
 echo - Outputs text to the terminal.
 1 2 user@linux:~$ echo &#34;Hello, World!&#34; Hello, World! whoami - Prints the username of the current user.]]></description>
+</item>
+<item>
+  <title>Linux Fundamentals 2</title>
+  <link>https://chandrakundu.github.io/posts/linux-fundamentals/linux-fundamentals-2/</link>
+  <pubDate>Tue, 12 Apr 2022 00:37:12 -0400</pubDate>
+  <author>Author</author>
+  <guid>https://chandrakundu.github.io/posts/linux-fundamentals/linux-fundamentals-2/</guid>
+  <description><![CDATA[<div class="featured-image"><img loading="eager" src="https://images.unsplash.com/photo-1629654291663-b91ad427698f?q=80&amp;w=2574&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Linux Fundamentals 2" title="Linux Fundamentals 2" referrerpolicy="no-referrer"/></div>Let&rsquo;s learn the practical use of pipes and filter.
+1 ls -l ~ | grep -v r$ | awk &#39;{print $8}&#39;|sort -nr The above command will list all the files in the home directory, exclude the files ending with &lsquo;r&rsquo;, print the 8th column, and sort the output in reverse order.
+Let&rsquo;s break down the command:
+ls -l ~: Lists all the files in the home directory with detailed information.]]></description>
 </item>
 </channel>
 </rss>
