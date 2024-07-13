@@ -63,5 +63,17 @@ Open PowerShell as an administrator. Run winget install Hugo. Verify Installatio
 Run hugo version in PowerShell to verify the installation. Manual InstallationDownload Hugo:
 To install Hugo, you can clone the repository: git clone https://github.]]></description>
 </item>
+<item>
+  <title>Linux Fundamentals 1</title>
+  <link>https://chandrakundu.github.io/posts/linux-fundamentals-1/</link>
+  <pubDate>Tue, 12 Apr 2022 00:37:12 -0400</pubDate>
+  <author>Author</author>
+  <guid>https://chandrakundu.github.io/posts/linux-fundamentals-1/</guid>
+  <description><![CDATA[<div class="featured-image"><img loading="eager" src="https://images.unsplash.com/photo-1629654291663-b91ad427698f?q=80&amp;w=2574&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Linux Fundamentals 1" title="Linux Fundamentals 1" referrerpolicy="no-referrer"/></div>Linux is a operating system like OS X and Windows, however much more lightweight. It is built upon UNIX, which is an open-source operating system. Two of the most common distribution of Linux are Ubuntu and Debian.
+Useful links:
+Command line reference: https://ss64.com/bash Let&rsquo;s get started with some of the most useful commands in Linux:
+echo - Outputs text to the terminal.
+1 2 user@linux:~$ echo &#34;Hello, World!&#34; Hello, World! whoami - Prints the username of the current user.]]></description>
+</item>
 </channel>
 </rss>
