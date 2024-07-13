@@ -3,21 +3,5 @@
     <title>Tags - Tag - Chandra Kundu | Personal Website</title>
     <link>https://chandrakundu.github.io/tags/</link>
     <description>Tags - Tag | Chandra Kundu | Personal Website</description>
-    <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 17 Jun 2024 00:01:00 -0400</lastBuildDate><atom:link href="https://chandrakundu.github.io/tags/" rel="self" type="application/rss+xml" /><item>
-  <title>Linux</title>
-  <link>https://chandrakundu.github.io/tags/linux/</link>
-  <pubDate>Mon, 17 Jun 2024 00:01:00 -0400</pubDate>
-  <author>Author</author>
-  <guid>https://chandrakundu.github.io/tags/linux/</guid>
-  <description><![CDATA[]]></description>
-</item>
-<item>
-  <title>Tmux</title>
-  <link>https://chandrakundu.github.io/tags/tmux/</link>
-  <pubDate>Mon, 17 Jun 2024 00:01:00 -0400</pubDate>
-  <author>Author</author>
-  <guid>https://chandrakundu.github.io/tags/tmux/</guid>
-  <description><![CDATA[]]></description>
-</item>
-</channel>
+    <generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://chandrakundu.github.io/tags/" rel="self" type="application/rss+xml" /></channel>
 </rss>

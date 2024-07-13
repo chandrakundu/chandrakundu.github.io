@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Linux - Category - Chandra Kundu | Personal Website</title>
+    <link>https://chandrakundu.github.io/categories/linux/</link>
+    <description>Linux - Category | Chandra Kundu | Personal Website</description>
+    <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 17 Jun 2024 00:01:00 -0400</lastBuildDate><atom:link href="https://chandrakundu.github.io/categories/linux/" rel="self" type="application/rss+xml" /><item>
+  <title>How to Keep Remote Servers Running with Tmux for Days Even If You Close Your Terminal</title>
+  <link>https://chandrakundu.github.io/posts/tmux-guide-and-cheat-sheet/</link>
+  <pubDate>Mon, 17 Jun 2024 00:01:00 -0400</pubDate>
+  <author>Author</author>
+  <guid>https://chandrakundu.github.io/posts/tmux-guide-and-cheat-sheet/</guid>
+  <description><![CDATA[Tmux is a powerful terminal multiplexer that allows you to manage multiple terminal sessions within a single window. This capability is incredibly useful for keeping remote servers running for days, even if you close your terminal. In this cheat sheet, we&rsquo;ll cover essential commands and keyboard shortcuts to help you get started with Tmux.
+Why Tmux is UsefulRun and manage multiple terminal sessions within a single window. Easily switch between them using keyboard shortcuts.]]></description>
+</item>
+</channel>
+</rss>
