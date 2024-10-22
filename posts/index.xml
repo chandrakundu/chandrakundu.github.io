@@ -1,97 +1,84 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>All Posts - Chandra Kundu | PhD Candidate at UCF</title>
     <link>https://chandrakundu.github.io/posts/</link>
-    <description>All Posts | Chandra Kundu | PhD Candidate at UCF</description>
-    <generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://chandrakundu.github.io/posts/" rel="self" type="application/rss+xml" /><item>
-  <title>How to Keep Remote Servers Running with Tmux for Days Even If You Close Your Terminal</title>
-  <link>https://chandrakundu.github.io/posts/tmux-guide-and-cheat-sheet/</link>
-  <pubDate>Mon, 17 Jun 2024 00:01:00 -0400</pubDate>
-  <author>Author</author>
-  <guid>https://chandrakundu.github.io/posts/tmux-guide-and-cheat-sheet/</guid>
-  <description><![CDATA[Tmux is a powerful terminal multiplexer that allows you to manage multiple terminal sessions within a single window. This capability is incredibly useful for keeping remote servers running for days, even if you close your terminal. In this cheat sheet, we&rsquo;ll cover essential commands and keyboard shortcuts to help you get started with Tmux.
-Why Tmux is UsefulRun and manage multiple terminal sessions within a single window. Easily switch between them using keyboard shortcuts.]]></description>
-</item>
-<item>
-  <title>Handling Relative Paths in Python Projects</title>
-  <link>https://chandrakundu.github.io/posts/handling-relative-paths-in-python-projects/</link>
-  <pubDate>Sun, 16 Jun 2024 23:22:00 -0400</pubDate>
-  <author>Author</author>
-  <guid>https://chandrakundu.github.io/posts/handling-relative-paths-in-python-projects/</guid>
-  <description><![CDATA[Working on Python projects often requires managing complex directory structures and handling relative paths efficiently. In this blog post, we will explore common issues related to handling relative paths and provide solutions to ensure your scripts run smoothly, regardless of how and where they are executed.
-Project StructureBefore diving into the details, let&rsquo;s first understand the typical structure of a Python project. A Python project usually consists of the following directories:]]></description>
-</item>
-<item>
-  <title>How to Generate Images Locally Using Open Source AI Models</title>
-  <link>https://chandrakundu.github.io/posts/how-to-generate-images-locally-using-open-source-ai-models/</link>
-  <pubDate>Wed, 12 Jun 2024 00:37:12 -1200</pubDate>
-  <author>Author</author>
-  <guid>https://chandrakundu.github.io/posts/how-to-generate-images-locally-using-open-source-ai-models/</guid>
-  <description><![CDATA[<div class="featured-image"><img loading="eager" src="invoke-ai.png" alt="How to Generate Images Locally Using Open Source AI Models" title="How to Generate Images Locally Using Open Source AI Models" referrerpolicy="no-referrer"/></div>Generating images locally using open-source AI models is a fascinating way to leverage AI&rsquo;s creative potential. Among the available tools, Invoke AI stands out due to its ease of installation and robust features. While Automatic1111 is popular, Invoke AI offers a more streamlined experience for beginners and advanced users alike. Here&rsquo;s a guide to help you set up and run Invoke AI on your local Windows computer.
-PrerequisitesBefore diving into the installation process, ensure you have the following:]]></description>
-</item>
-<item>
-  <title>How to create a chatbot like ChatGPT by running LLM locally in Windows via Ollama and Open WebUI</title>
-  <link>https://chandrakundu.github.io/posts/how-to-create-ai-chatbot/</link>
-  <pubDate>Wed, 12 Jun 2024 00:37:12 -0400</pubDate>
-  <author>Author</author>
-  <guid>https://chandrakundu.github.io/posts/how-to-create-ai-chatbot/</guid>
-  <description><![CDATA[<div class="featured-image"><img loading="eager" src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*fot7Pg4wbBALlLQzQBzumQ.png" alt="How to create a chatbot like ChatGPT by running LLM locally in Windows via Ollama and Open WebUI" title="How to create a chatbot like ChatGPT by running LLM locally in Windows via Ollama and Open WebUI" referrerpolicy="no-referrer"/></div>In this post we will see that how to create a chatbot like ChatGPT by running Large Language Model (LLM) locally in Windows via Ollama and Open WebUI
-Creating a chatbot that runs a large language model (LLM) on your local machine can be done in several ways. Here are some methods you might consider:
-Using API and Programming: This approach is often difficult and time-consuming. Chatbot UI: This method requires API access from OpenAI.]]></description>
-</item>
-<item>
-  <title>LaTeX Tips for Effective Typesetting</title>
-  <link>https://chandrakundu.github.io/posts/latex-tips-for-effective-typesetting/</link>
-  <pubDate>Thu, 16 Nov 2023 20:53:47 -0500</pubDate>
-  <author>Author</author>
-  <guid>https://chandrakundu.github.io/posts/latex-tips-for-effective-typesetting/</guid>
-  <description><![CDATA[<div class="featured-image"><img loading="eager" src="latex_cover_photo.png" alt="LaTeX Tips for Effective Typesetting" title="LaTeX Tips for Effective Typesetting" referrerpolicy="no-referrer"/></div>LaTeX is a powerful typesetting system used extensively for scientific documents, academic papers, and any situation which requires precision in presentation. Below are some effective tips and tricks to enhance your LaTeX typesetting, ensuring consistency and clarity in your documents.
-Keeping Text Together and Box UsageEnsuring Word Cohesion with mbox and fboxTo prevent LaTeX from breaking up text between lines or pages, you can use the \mbox{} command, which will keep the text inside intact regardless of formatting.]]></description>
-</item>
-<item>
-  <title>Create Website with Blog using Hugo on Windows</title>
-  <link>https://chandrakundu.github.io/posts/creating-website-with-hugo-on-windows/</link>
-  <pubDate>Sun, 01 Oct 2023 00:37:12 -0400</pubDate>
-  <author>Author</author>
-  <guid>https://chandrakundu.github.io/posts/creating-website-with-hugo-on-windows/</guid>
-  <description><![CDATA[<div class="featured-image"><img loading="eager" src="hugo_cover.webp" alt="Create Website with Blog using Hugo on Windows" title="Create Website with Blog using Hugo on Windows" referrerpolicy="no-referrer"/></div>Hugo is a popular open-source static site generator (SSG) that&rsquo;s known for its speed, flexibility, and ease of use. In this post, I&rsquo;ll walk you through the process of creating a website using Hugo on Windows.
-Installing HugoUsing wingetInstall Hugo:
-Open PowerShell as an administrator. Run winget install Hugo. Verify Installation:
-Run hugo version in PowerShell to verify the installation. Manual InstallationDownload Hugo:
-To install Hugo, you can clone the repository: git clone https://github.]]></description>
-</item>
-<item>
-  <title>Testing in Python Fundamentals with Pytest</title>
-  <link>https://chandrakundu.github.io/posts/python-testing-basics-pytest/</link>
-  <pubDate>Mon, 12 Jun 2023 00:42:12 -0400</pubDate>
-  <author>Author</author>
-  <guid>https://chandrakundu.github.io/posts/python-testing-basics-pytest/</guid>
-  <description><![CDATA[<div class="featured-image"><img loading="eager" src="python-testing.jpeg" alt="Testing in Python Fundamentals with Pytest" title="Testing in Python Fundamentals with Pytest" referrerpolicy="no-referrer"/></div>Testing is an essential part of developing applications. It helps ensure that the code works as expected and catches bugs early in the development process. In this article, we will explore the basics of testing in Python using the popular testing framework, Pytest.
-What is Pytest?Pytest is a testing framework for Python that makes writing and running tests simple and efficient. It provides a rich set of features for writing test cases, including fixtures, parameterized tests, and test discovery.]]></description>
-</item>
-<item>
-  <title>Linux Fundamentals 1</title>
-  <link>https://chandrakundu.github.io/posts/linux-fundamentals/linux-fundamentals-1/</link>
-  <pubDate>Tue, 12 Apr 2022 00:37:12 -0400</pubDate>
-  <author>Author</author>
-  <guid>https://chandrakundu.github.io/posts/linux-fundamentals/linux-fundamentals-1/</guid>
-  <description><![CDATA[<div class="featured-image"><img loading="eager" src="linux-terminal.png" alt="Linux Fundamentals 1" title="Linux Fundamentals 1" referrerpolicy="no-referrer"/></div>Linux is a operating system like OS X and Windows, however much more lightweight. It is built upon UNIX, which is an open-source operating system. Two of the most common distribution of Linux are Ubuntu and Debian.
-Useful links:
-Command line reference: https://ss64.com/bash Let&rsquo;s get started with some of the most useful commands in Linux:
-echo - Outputs text to the terminal.
-1 2 user@linux:~$ echo &#34;Hello, World!&#34; Hello, World! whoami - Prints the username of the current user.]]></description>
-</item>
-<item>
-  <title>Linux Fundamentals 2</title>
-  <link>https://chandrakundu.github.io/posts/linux-fundamentals/linux-fundamentals-2/</link>
-  <pubDate>Tue, 12 Apr 2022 00:37:12 -0400</pubDate>
-  <author>Author</author>
-  <guid>https://chandrakundu.github.io/posts/linux-fundamentals/linux-fundamentals-2/</guid>
-  <description><![CDATA[<div class="featured-image"><img loading="eager" src="https://images.unsplash.com/photo-1629654291663-b91ad427698f?q=80&amp;w=2574&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Linux Fundamentals 2" title="Linux Fundamentals 2" referrerpolicy="no-referrer"/></div>Let&rsquo;s learn the practical use of pipes and filter.
-1 ls -l ~ | grep -v r$ | awk &#39;{print $8}&#39;|sort -nr The above command will list all the files in the home directory, exclude the files ending with &lsquo;r&rsquo;, print the 8th column, and sort the output in reverse order.
-Let&rsquo;s break down the command:
-ls -l ~: Lists all the files in the home directory with detailed information.]]></description>
-</item>
-</channel>
+    <description>Chandra Kundu is a Ph.D. candidate in Big Data Analytics at the University of Central Florida, focusing on Robust PCA, Matrix Completion, and Deep Unfolding. </description>
+    <generator>Hugo 0.136.3 &amp; FixIt v0.3.13</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 22 Oct 2024 01:38:42 -0400</lastBuildDate>
+    <atom:link href="https://chandrakundu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Keep Remote Servers Running with Tmux for Days Even If You Close Your Terminal</title>
+      <link>https://chandrakundu.github.io/posts/tmux-guide-and-cheat-sheet/</link>
+      <pubDate>Mon, 17 Jun 2024 00:01:00 -0400</pubDate>
+      <guid>https://chandrakundu.github.io/posts/tmux-guide-and-cheat-sheet/</guid>
+      <category domain="https://chandrakundu.github.io/categories/linux/">Linux</category>
+      <description>&lt;p&gt;Tmux is a powerful terminal multiplexer that allows you to manage multiple terminal sessions within a single window. This capability is incredibly useful for keeping remote servers running for days, even if you close your terminal. In this cheat sheet, we&amp;rsquo;ll cover essential commands and keyboard shortcuts to help you get started with Tmux.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-tmux-is-useful&#34; class=&#34;heading-element&#34;&gt;&lt;span&gt;Why Tmux is Useful&lt;/span&gt;&#xD;&#xA;  &lt;a href=&#34;#why-tmux-is-useful&#34; class=&#34;heading-mark&#34;&gt;&#xD;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&lt;ul&gt;&#xA;&lt;li&gt;Run and manage multiple terminal sessions within a single window.&lt;/li&gt;&#xA;&lt;li&gt;Easily switch between them using keyboard shortcuts.&lt;/li&gt;&#xA;&lt;li&gt;Detach from a session and reattach later to pick up right where you left off.&lt;/li&gt;&#xA;&lt;li&gt;Keep processes running even after you close your terminal, ensuring uninterrupted server tasks.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;installation&#34; class=&#34;heading-element&#34;&gt;&lt;span&gt;Installation&lt;/span&gt;&#xD;&#xA;  &lt;a href=&#34;#installation&#34; class=&#34;heading-mark&#34;&gt;&#xD;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&lt;h3 id=&#34;ubuntu&#34; class=&#34;heading-element&#34;&gt;&lt;span&gt;Ubuntu&lt;/span&gt;&#xD;&#xA;  &lt;a href=&#34;#ubuntu&#34; class=&#34;heading-mark&#34;&gt;&#xD;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;&#xA;&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2&#xA;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&#xA;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt-get update&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt-get install tmux&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&lt;h2 id=&#34;creating-and-managing-sessions&#34; class=&#34;heading-element&#34;&gt;&lt;span&gt;Creating and Managing Sessions&lt;/span&gt;&#xD;&#xA;  &lt;a href=&#34;#creating-and-managing-sessions&#34; class=&#34;heading-mark&#34;&gt;&#xD;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&lt;p&gt;Create a New Session&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Handling Relative Paths in Python Projects</title>
+      <link>https://chandrakundu.github.io/posts/handling-relative-paths-in-python-projects/</link>
+      <pubDate>Sun, 16 Jun 2024 23:22:00 -0400</pubDate>
+      <guid>https://chandrakundu.github.io/posts/handling-relative-paths-in-python-projects/</guid>
+      <category domain="https://chandrakundu.github.io/categories/python/">Python</category>
+      <description>&lt;p&gt;Working on Python projects often requires managing complex directory structures and handling relative paths efficiently. In this blog post, we will explore common issues related to handling relative paths and provide solutions to ensure your scripts run smoothly, regardless of how and where they are executed.&lt;/p&gt;&#xA;&lt;h2 id=&#34;project-structure&#34; class=&#34;heading-element&#34;&gt;&lt;span&gt;Project Structure&lt;/span&gt;&#xD;&#xA;  &lt;a href=&#34;#project-structure&#34; class=&#34;heading-mark&#34;&gt;&#xD;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&lt;p&gt;Before diving into the details, let&amp;rsquo;s first understand the typical structure of a Python project. A Python project usually consists of the following directories:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Generate Images Locally Using Open Source AI Models</title>
+      <link>https://chandrakundu.github.io/posts/how-to-generate-images-locally-using-open-source-ai-models/</link>
+      <pubDate>Wed, 12 Jun 2024 00:37:12 -1200</pubDate>
+      <guid>https://chandrakundu.github.io/posts/how-to-generate-images-locally-using-open-source-ai-models/</guid>
+      <category domain="https://chandrakundu.github.io/categories/ai/">AI</category>
+      <description>&lt;p&gt;Generating images locally using open-source AI models is a fascinating way to leverage AI&amp;rsquo;s creative potential. Among the available tools, &lt;strong&gt;Invoke AI&lt;/strong&gt; stands out due to its ease of installation and robust features. While &lt;strong&gt;Automatic1111&lt;/strong&gt; is popular, Invoke AI offers a more streamlined experience for beginners and advanced users alike. Here&amp;rsquo;s a guide to help you set up and run Invoke AI on your local Windows computer.&lt;/p&gt;&#xA;&lt;h2 id=&#34;prerequisites&#34; class=&#34;heading-element&#34;&gt;&lt;span&gt;Prerequisites&lt;/span&gt;&#xD;&#xA;  &lt;a href=&#34;#prerequisites&#34; class=&#34;heading-mark&#34;&gt;&#xD;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&lt;p&gt;Before diving into the installation process, ensure you have the following:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to create a chatbot like ChatGPT by running LLM locally in Windows via Ollama and Open WebUI</title>
+      <link>https://chandrakundu.github.io/posts/how-to-create-ai-chatbot/</link>
+      <pubDate>Wed, 12 Jun 2024 00:37:12 -0400</pubDate>
+      <guid>https://chandrakundu.github.io/posts/how-to-create-ai-chatbot/</guid>
+      <category domain="https://chandrakundu.github.io/categories/ai/">AI</category>
+      <description>&lt;p&gt;In this post we will see that how to create a chatbot like ChatGPT by running Large Language Model (LLM) locally in Windows via Ollama and Open WebUI&lt;/p&gt;&#xA;&lt;p&gt;Creating a chatbot that runs a large language model (LLM) on your local machine can be done in several ways. Here are some methods you might consider:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Using API and Programming:&lt;/strong&gt; This approach is often difficult and time-consuming.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Chatbot UI:&lt;/strong&gt; This method requires API access from OpenAI. It&amp;rsquo;s very good if you want to use it remotely, but as of my knowledge, it may not support local model access.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Ollama and Open WebUI:&lt;/strong&gt; These can be used with APIs from OpenAI and locally stored, trained LLM models.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;In this post, I will discuss how we can use &lt;strong&gt;Ollama&lt;/strong&gt; and &lt;strong&gt;Open WebUI&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>LaTeX Tips for Effective Typesetting</title>
+      <link>https://chandrakundu.github.io/posts/latex-tips-for-effective-typesetting/</link>
+      <pubDate>Thu, 16 Nov 2023 20:53:47 -0500</pubDate>
+      <guid>https://chandrakundu.github.io/posts/latex-tips-for-effective-typesetting/</guid>
+      <category domain="https://chandrakundu.github.io/categories/latex/">LaTeX</category>
+      <description>&lt;p&gt;LaTeX is a powerful typesetting system used extensively for scientific documents, academic papers, and any situation which requires precision in presentation. Below are some effective tips and tricks to enhance your LaTeX typesetting, ensuring consistency and clarity in your documents.&lt;/p&gt;&#xA;&lt;h2 id=&#34;keeping-text-together-and-box-usage&#34; class=&#34;heading-element&#34;&gt;&lt;span&gt;Keeping Text Together and Box Usage&lt;/span&gt;&#xD;&#xA;  &lt;a href=&#34;#keeping-text-together-and-box-usage&#34; class=&#34;heading-mark&#34;&gt;&#xD;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&lt;h3 id=&#34;ensuring-word-cohesion-with-mbox-and-fbox&#34; class=&#34;heading-element&#34;&gt;&lt;span&gt;Ensuring Word Cohesion with mbox and fbox&lt;/span&gt;&#xD;&#xA;  &lt;a href=&#34;#ensuring-word-cohesion-with-mbox-and-fbox&#34; class=&#34;heading-mark&#34;&gt;&#xD;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h3&gt;&lt;p&gt;To prevent LaTeX from breaking up text between lines or pages, you can use the &lt;code&gt;\mbox{}&lt;/code&gt; command, which will keep the text inside intact regardless of formatting. It&amp;rsquo;s particularly useful when dealing with text that must stay together, such as proper names or specific code snippets.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Create Website with Blog using Hugo on Windows</title>
+      <link>https://chandrakundu.github.io/posts/creating-website-with-hugo-on-windows/</link>
+      <pubDate>Sun, 01 Oct 2023 00:37:12 -0400</pubDate>
+      <guid>https://chandrakundu.github.io/posts/creating-website-with-hugo-on-windows/</guid>
+      <category domain="https://chandrakundu.github.io/categories/web-development/">Web Development</category>
+      <description>&lt;p&gt;Hugo is a popular open-source static site generator (SSG) that&amp;rsquo;s known for its speed, flexibility, and ease of use. In this post, I&amp;rsquo;ll walk you through the process of creating a website using Hugo on Windows.&lt;/p&gt;&#xA;&lt;h2 id=&#34;installing-hugo&#34; class=&#34;heading-element&#34;&gt;&lt;span&gt;Installing Hugo&lt;/span&gt;&#xD;&#xA;  &lt;a href=&#34;#installing-hugo&#34; class=&#34;heading-mark&#34;&gt;&#xD;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&lt;h3 id=&#34;using-winget&#34; class=&#34;heading-element&#34;&gt;&lt;span&gt;Using winget&lt;/span&gt;&#xD;&#xA;  &lt;a href=&#34;#using-winget&#34; class=&#34;heading-mark&#34;&gt;&#xD;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h3&gt;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Install Hugo:&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Testing in Python Fundamentals with Pytest</title>
+      <link>https://chandrakundu.github.io/posts/python-testing-basics-pytest/</link>
+      <pubDate>Mon, 12 Jun 2023 00:42:12 -0400</pubDate>
+      <guid>https://chandrakundu.github.io/posts/python-testing-basics-pytest/</guid>
+      <category domain="https://chandrakundu.github.io/categories/python/">Python</category>
+      <description>&lt;p&gt;Testing is an essential part of developing applications. It helps ensure that the code works as expected and catches bugs early in the development process. In this article, we will explore the basics of testing in Python using the popular testing framework, Pytest.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-pytest&#34; class=&#34;heading-element&#34;&gt;&lt;span&gt;What is Pytest?&lt;/span&gt;&#xD;&#xA;  &lt;a href=&#34;#what-is-pytest&#34; class=&#34;heading-mark&#34;&gt;&#xD;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&lt;p&gt;Pytest is a testing framework for Python that makes writing and running tests simple and efficient. It provides a rich set of features for writing test cases, including fixtures, parameterized tests, and test discovery. Pytest is widely used in the Python community and is known for its simplicity and ease of use.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linux Fundamentals 1</title>
+      <link>https://chandrakundu.github.io/posts/linux-fundamentals/linux-fundamentals-1/</link>
+      <pubDate>Tue, 12 Apr 2022 00:37:12 -0400</pubDate>
+      <guid>https://chandrakundu.github.io/posts/linux-fundamentals/linux-fundamentals-1/</guid>
+      <category domain="https://chandrakundu.github.io/categories/linux/">Linux</category>
+      <description>&lt;p&gt;Linux is a operating system like OS X and Windows, however much more lightweight. It is built upon UNIX, which is an open-source operating system. Two of the most common distribution of Linux are Ubuntu and Debian.&lt;/p&gt;&#xA;&lt;p&gt;Useful links:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Command line reference: &lt;a href=&#34;ss64.com/bash&#34;&gt;https://ss64.com/bash&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s get started with some of the most useful commands in Linux:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;echo&lt;/strong&gt; - Outputs text to the terminal.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;&#xA;&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2&#xA;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&#xA;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;user@linux:~$ &lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Hello, World!&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;whoami&lt;/strong&gt; - Prints the username of the current user.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linux Fundamentals 2</title>
+      <link>https://chandrakundu.github.io/posts/linux-fundamentals/linux-fundamentals-2/</link>
+      <pubDate>Tue, 12 Apr 2022 00:37:12 -0400</pubDate>
+      <guid>https://chandrakundu.github.io/posts/linux-fundamentals/linux-fundamentals-2/</guid>
+      <category domain="https://chandrakundu.github.io/categories/linux/">Linux</category>
+      <description>&lt;p&gt;Let&amp;rsquo;s learn the practical use of pipes and filter.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;&#xA;&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1&#xA;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&#xA;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-console&#34; data-lang=&#34;console&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;go&#34;&gt;ls -l ~ | grep -v r$ | awk &amp;#39;{print $8}&amp;#39;|sort -nr&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&lt;p&gt;The above command will list all the files in the home directory, exclude the files ending with &amp;lsquo;r&amp;rsquo;, print the 8th column, and sort the output in reverse order.&lt;/p&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s break down the command:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;code&gt;ls -l ~&lt;/code&gt;: Lists all the files in the home directory with detailed information.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

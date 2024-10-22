@@ -1,7 +1,12 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags - Tag - Chandra Kundu | PhD Candidate at UCF</title>
     <link>https://chandrakundu.github.io/tags/</link>
-    <description>Tags - Tag | Chandra Kundu | PhD Candidate at UCF</description>
-    <generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://chandrakundu.github.io/tags/" rel="self" type="application/rss+xml" /></channel>
+    <description>Chandra Kundu is a Ph.D. candidate in Big Data Analytics at the University of Central Florida, focusing on Robust PCA, Matrix Completion, and Deep Unfolding. </description>
+    <generator>Hugo 0.136.3 &amp; FixIt v0.3.13</generator>
+    <language>en</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://chandrakundu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
 </rss>

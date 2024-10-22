@@ -1,47 +1,47 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories - Category - Chandra Kundu | PhD Candidate at UCF</title>
     <link>https://chandrakundu.github.io/categories/</link>
-    <description>Categories - Category | Chandra Kundu | PhD Candidate at UCF</description>
-    <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 17 Jun 2024 00:01:00 -0400</lastBuildDate><atom:link href="https://chandrakundu.github.io/categories/" rel="self" type="application/rss+xml" /><item>
-  <title>Linux</title>
-  <link>https://chandrakundu.github.io/categories/linux/</link>
-  <pubDate>Mon, 17 Jun 2024 00:01:00 -0400</pubDate>
-  <author>Author</author>
-  <guid>https://chandrakundu.github.io/categories/linux/</guid>
-  <description><![CDATA[]]></description>
-</item>
-<item>
-  <title>Python</title>
-  <link>https://chandrakundu.github.io/categories/python/</link>
-  <pubDate>Sun, 16 Jun 2024 23:22:00 -0400</pubDate>
-  <author>Author</author>
-  <guid>https://chandrakundu.github.io/categories/python/</guid>
-  <description><![CDATA[]]></description>
-</item>
-<item>
-  <title>AI</title>
-  <link>https://chandrakundu.github.io/categories/ai/</link>
-  <pubDate>Wed, 12 Jun 2024 00:37:12 -1200</pubDate>
-  <author>Author</author>
-  <guid>https://chandrakundu.github.io/categories/ai/</guid>
-  <description><![CDATA[]]></description>
-</item>
-<item>
-  <title>LaTeX</title>
-  <link>https://chandrakundu.github.io/categories/latex/</link>
-  <pubDate>Thu, 16 Nov 2023 20:53:47 -0500</pubDate>
-  <author>Author</author>
-  <guid>https://chandrakundu.github.io/categories/latex/</guid>
-  <description><![CDATA[]]></description>
-</item>
-<item>
-  <title>Web Development</title>
-  <link>https://chandrakundu.github.io/categories/web-development/</link>
-  <pubDate>Sun, 01 Oct 2023 00:37:12 -0400</pubDate>
-  <author>Author</author>
-  <guid>https://chandrakundu.github.io/categories/web-development/</guid>
-  <description><![CDATA[]]></description>
-</item>
-</channel>
+    <description>Chandra Kundu is a Ph.D. candidate in Big Data Analytics at the University of Central Florida, focusing on Robust PCA, Matrix Completion, and Deep Unfolding. </description>
+    <generator>Hugo 0.136.3 &amp; FixIt v0.3.13</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 22 Oct 2024 01:38:42 -0400</lastBuildDate>
+    <atom:link href="https://chandrakundu.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux</title>
+      <link>https://chandrakundu.github.io/categories/linux/</link>
+      <pubDate>Mon, 17 Jun 2024 00:01:00 -0400</pubDate>
+      <guid>https://chandrakundu.github.io/categories/linux/</guid>
+      <description>Linux</description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://chandrakundu.github.io/categories/python/</link>
+      <pubDate>Sun, 16 Jun 2024 23:22:00 -0400</pubDate>
+      <guid>https://chandrakundu.github.io/categories/python/</guid>
+      <description>Python</description>
+    </item>
+    <item>
+      <title>AI</title>
+      <link>https://chandrakundu.github.io/categories/ai/</link>
+      <pubDate>Wed, 12 Jun 2024 00:37:12 -1200</pubDate>
+      <guid>https://chandrakundu.github.io/categories/ai/</guid>
+      <description>AI</description>
+    </item>
+    <item>
+      <title>LaTeX</title>
+      <link>https://chandrakundu.github.io/categories/latex/</link>
+      <pubDate>Thu, 16 Nov 2023 20:53:47 -0500</pubDate>
+      <guid>https://chandrakundu.github.io/categories/latex/</guid>
+      <description>LaTeX</description>
+    </item>
+    <item>
+      <title>Web Development</title>
+      <link>https://chandrakundu.github.io/categories/web-development/</link>
+      <pubDate>Sun, 01 Oct 2023 00:37:12 -0400</pubDate>
+      <guid>https://chandrakundu.github.io/categories/web-development/</guid>
+      <description>Web Development</description>
+    </item>
+  </channel>
 </rss>
