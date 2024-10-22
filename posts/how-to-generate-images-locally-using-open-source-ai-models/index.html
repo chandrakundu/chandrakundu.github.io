@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
     <meta name="robots" content="noodp" />
-    <title>How to Generate Images Locally Using Open Source AI Models - Chandra Kundu | Personal Website</title><meta name="author" content="">
+    <title>How to Generate Images Locally Using Open Source AI Models - Chandra Kundu | PhD Candidate at UCF</title><meta name="author" content="">
 <meta name="author-link" content="">
 <meta name="description" content="Generating images locally using open-source AI models is a fascinating way to leverage AI&rsquo;s creative potential. Among the available tools, Invoke AI stands out due to its ease of installation and robust features. While Automatic1111 is popular, Invoke AI offers a more streamlined experience for beginners and advanced users alike. Here&rsquo;s a guide to help you set up and run Invoke AI on your local Windows computer.
 PrerequisitesBefore diving into the installation process, ensure you have the following:" /><meta name="keywords" content='Invoke AI, Open Source AI Models, Image Generation' /><meta itemprop="name" content="How to Generate Images Locally Using Open Source AI Models">
@@ -19,15 +19,15 @@ PrerequisitesBefore diving into the installation process, ensure you have the f
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://chandrakundu.github.io/posts/how-to-generate-images-locally-using-open-source-ai-models/" /><meta property="og:image" content="https://chandrakundu.github.io/chandra-kundu.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-06-12T00:37:12-12:00" />
-<meta property="article:modified_time" content="2024-06-17T00:29:37-04:00" /><meta property="og:site_name" content="Chandra Kundu | Personal Website" />
+<meta property="article:modified_time" content="2024-06-17T00:29:37-04:00" /><meta property="og:site_name" content="Chandra Kundu | PhD Candidate at UCF" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://chandrakundu.github.io/chandra-kundu.png"/>
 
 <meta name="twitter:title" content="How to Generate Images Locally Using Open Source AI Models"/>
 <meta name="twitter:description" content="Generating images locally using open-source AI models is a fascinating way to leverage AI&rsquo;s creative potential. Among the available tools, Invoke AI stands out due to its ease of installation and robust features. While Automatic1111 is popular, Invoke AI offers a more streamlined experience for beginners and advanced users alike. Here&rsquo;s a guide to help you set up and run Invoke AI on your local Windows computer.
 PrerequisitesBefore diving into the installation process, ensure you have the following:"/>
-<meta name="application-name" content="Chandra Kundu | Personal Website">
-<meta name="apple-mobile-web-app-title" content="Chandra Kundu | Personal Website"><meta name="theme-color" data-light="#ffffff" data-dark="#ffffff" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+<meta name="application-name" content="Chandra Kundu | PhD Candidate at UCF">
+<meta name="apple-mobile-web-app-title" content="Chandra Kundu | PhD Candidate at UCF"><meta name="theme-color" data-light="#ffffff" data-dark="#ffffff" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" href="https://chandrakundu.github.io/posts/how-to-generate-images-locally-using-open-source-ai-models/" /><link rel="prev" href="https://chandrakundu.github.io/posts/how-to-create-ai-chatbot/" /><link rel="next" href="https://chandrakundu.github.io/posts/handling-relative-paths-in-python-projects/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
@@ -52,21 +52,27 @@ PrerequisitesBefore diving into the installation process, ensure you have the f
   <body data-header-desktop="fixed" data-header-mobile="auto"><script>(window.localStorage?.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('data-theme', 'dark');</script><div class="wrapper" data-page-style="normal"><header class="desktop animate__faster" id="header-desktop">
   <div class="header-wrapper">
     <div class="header-title">
-      <a href="/" title="Chandra Kundu | Personal Website"><span class="header-title-text">Chandra Kundu</span></a><span class="header-subtitle"></span></div>
+      <a href="/" title="Chandra Kundu | PhD Candidate at UCF"><span class="header-title-text">Chandra Kundu</span></a><span class="header-subtitle"></span></div>
     <nav>
       <ul class="menu"><li class="menu-item">
-              <a
-                class="menu-link"
-                href="/posts/"
-                
-                
-              >Posts</a></li><li class="menu-item">
               <a
                 class="menu-link"
                 href="/about/"
                 
                 
-              >About</a></li><li class="menu-item delimiter"></li><li class="menu-item search" id="search-desktop">
+              >About</a></li><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/cv/"
+                
+                
+              >CV</a></li><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/posts/"
+                
+                
+              >Posts</a></li><li class="menu-item delimiter"></li><li class="menu-item search" id="search-desktop">
             <input type="text" placeholder="Search titles or contents ..." id="search-input-desktop">
             <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
               <i class="fa-solid fa-search fa-fw" aria-hidden="true"></i>
@@ -86,7 +92,7 @@ PrerequisitesBefore diving into the installation process, ensure you have the f
   <div class="header-container">
     <div class="header-wrapper">
       <div class="header-title">
-        <a href="/" title="Chandra Kundu | Personal Website"><span class="header-title-text">Chandra Kundu</span></a><span class="header-subtitle"></span></div>
+        <a href="/" title="Chandra Kundu | PhD Candidate at UCF"><span class="header-title-text">Chandra Kundu</span></a><span class="header-subtitle"></span></div>
       <div class="menu-toggle" id="menu-toggle-mobile">
         <span></span><span></span><span></span>
       </div>
@@ -112,17 +118,24 @@ PrerequisitesBefore diving into the installation process, ensure you have the f
               class="menu-item"
             ><a
                   class="menu-link"
-                  href="/posts/"
-                  
-                  
-                >Posts</a></li><li
-              class="menu-item"
-            ><a
-                  class="menu-link"
                   href="/about/"
                   
                   
-                >About</a></li><li class="menu-item menu-system">
+                >About</a></li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/cv/"
+                  
+                  
+                >CV</a></li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/posts/"
+                  
+                  
+                >Posts</a></li><li class="menu-item menu-system">
           <span class="menu-system-item theme-switch" title="Switch Theme"><i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i></span></li>
       </ul>
     </nav>

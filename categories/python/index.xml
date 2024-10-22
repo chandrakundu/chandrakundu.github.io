@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>Python - Category - Chandra Kundu | Personal Website</title>
+    <title>Python - Category - Chandra Kundu | PhD Candidate at UCF</title>
     <link>https://chandrakundu.github.io/categories/python/</link>
-    <description>Python - Category | Chandra Kundu | Personal Website</description>
+    <description>Python - Category | Chandra Kundu | PhD Candidate at UCF</description>
     <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 16 Jun 2024 23:22:00 -0400</lastBuildDate><atom:link href="https://chandrakundu.github.io/categories/python/" rel="self" type="application/rss+xml" /><item>
   <title>Handling Relative Paths in Python Projects</title>
   <link>https://chandrakundu.github.io/posts/handling-relative-paths-in-python-projects/</link>
@@ -11,6 +11,15 @@
   <guid>https://chandrakundu.github.io/posts/handling-relative-paths-in-python-projects/</guid>
   <description><![CDATA[Working on Python projects often requires managing complex directory structures and handling relative paths efficiently. In this blog post, we will explore common issues related to handling relative paths and provide solutions to ensure your scripts run smoothly, regardless of how and where they are executed.
 Project StructureBefore diving into the details, let&rsquo;s first understand the typical structure of a Python project. A Python project usually consists of the following directories:]]></description>
+</item>
+<item>
+  <title>Testing in Python Fundamentals with Pytest</title>
+  <link>https://chandrakundu.github.io/posts/python-testing-basics-pytest/</link>
+  <pubDate>Mon, 12 Jun 2023 00:42:12 -0400</pubDate>
+  <author>Author</author>
+  <guid>https://chandrakundu.github.io/posts/python-testing-basics-pytest/</guid>
+  <description><![CDATA[<div class="featured-image"><img loading="eager" src="python-testing.jpeg" alt="Testing in Python Fundamentals with Pytest" title="Testing in Python Fundamentals with Pytest" referrerpolicy="no-referrer"/></div>Testing is an essential part of developing applications. It helps ensure that the code works as expected and catches bugs early in the development process. In this article, we will explore the basics of testing in Python using the popular testing framework, Pytest.
+What is Pytest?Pytest is a testing framework for Python that makes writing and running tests simple and efficient. It provides a rich set of features for writing test cases, including fixtures, parameterized tests, and test discovery.]]></description>
 </item>
 </channel>
 </rss>
