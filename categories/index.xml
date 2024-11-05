@@ -4,23 +4,23 @@
     <title>Categories - Category - Chandra Kundu | PhD Candidate at UCF</title>
     <link>https://chandrakundu.github.io/categories/</link>
     <description>Chandra Kundu is a Ph.D. candidate in Big Data Analytics at the University of Central Florida, focusing on Robust PCA, Matrix Completion, and Deep Unfolding. </description>
-    <generator>Hugo 0.136.3 &amp; FixIt v0.3.13</generator>
+    <generator>Hugo 0.136.3 &amp; FixIt v0.3.14</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Oct 2024 01:38:42 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 05 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://chandrakundu.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python</title>
+      <link>https://chandrakundu.github.io/categories/python/</link>
+      <pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://chandrakundu.github.io/categories/python/</guid>
+      <description>Python</description>
+    </item>
     <item>
       <title>Linux</title>
       <link>https://chandrakundu.github.io/categories/linux/</link>
       <pubDate>Mon, 17 Jun 2024 00:01:00 -0400</pubDate>
       <guid>https://chandrakundu.github.io/categories/linux/</guid>
       <description>Linux</description>
-    </item>
-    <item>
-      <title>Python</title>
-      <link>https://chandrakundu.github.io/categories/python/</link>
-      <pubDate>Sun, 16 Jun 2024 23:22:00 -0400</pubDate>
-      <guid>https://chandrakundu.github.io/categories/python/</guid>
-      <description>Python</description>
     </item>
     <item>
       <title>AI</title>

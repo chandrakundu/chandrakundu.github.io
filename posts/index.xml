@@ -4,10 +4,18 @@
     <title>All Posts - Chandra Kundu | PhD Candidate at UCF</title>
     <link>https://chandrakundu.github.io/posts/</link>
     <description>Chandra Kundu is a Ph.D. candidate in Big Data Analytics at the University of Central Florida, focusing on Robust PCA, Matrix Completion, and Deep Unfolding. </description>
-    <generator>Hugo 0.136.3 &amp; FixIt v0.3.13</generator>
+    <generator>Hugo 0.136.3 &amp; FixIt v0.3.14</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Oct 2024 01:38:42 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 05 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://chandrakundu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installing PyTorch with CUDA using `uv`</title>
+      <link>https://chandrakundu.github.io/posts/installing-pytorch-with-cuda-using-uv/</link>
+      <pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://chandrakundu.github.io/posts/installing-pytorch-with-cuda-using-uv/</guid>
+      <category domain="https://chandrakundu.github.io/categories/python/">Python</category>
+      <description>&lt;p&gt;&lt;code&gt;uv&lt;/code&gt; is an extremely fast Python package and project manager that simplifies managing your Python environments and dependencies. However, I encountered a problem when attempting to install PyTorch with CUDA support. After some trial and error, I was able to resolve the issue. Let&amp;rsquo;s explore how to set up a project using &lt;code&gt;uv&lt;/code&gt; and install PyTorch with CUDA support on both a Windows machine and Ubuntu running on Windows Subsystem for Linux (WSL).&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How to Keep Remote Servers Running with Tmux for Days Even If You Close Your Terminal</title>
       <link>https://chandrakundu.github.io/posts/tmux-guide-and-cheat-sheet/</link>
