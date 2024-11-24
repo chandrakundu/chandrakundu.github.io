@@ -2,15 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://chandrakundu.github.io/categories/</loc>
-    <lastmod>2024-11-05T00:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://chandrakundu.github.io/posts/installing-pytorch-with-cuda-using-uv/</loc>
-    <lastmod>2024-11-05T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-23T00:37:12-04:00</lastmod>
   </url>
   <url>
     <loc>https://chandrakundu.github.io/categories/python/</loc>
-    <lastmod>2024-11-05T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-23T00:37:12-04:00</lastmod>
+  </url>
+  <url>
+    <loc>https://chandrakundu.github.io/posts/uv-tutorial-1/</loc>
+    <lastmod>2024-11-23T00:37:12-04:00</lastmod>
+  </url>
+  <url>
+    <loc>https://chandrakundu.github.io/posts/uv-tutorial-2/</loc>
+    <lastmod>2024-11-23T00:37:12-04:00</lastmod>
+  </url>
+  <url>
+    <loc>https://chandrakundu.github.io/posts/uv-tutorial-3/</loc>
+    <lastmod>2024-11-23T00:37:12-04:00</lastmod>
   </url>
   <url>
     <loc>https://chandrakundu.github.io/cv/</loc>
