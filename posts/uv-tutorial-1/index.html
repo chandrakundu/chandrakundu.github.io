@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
     <meta name="robots" content="noodp" />
-    <title>UV Tutorial Part 1: Lightning-Fast Oldstyle Python Project Management With UV - Chandra Kundu | PhD Candidate at UCF</title><meta name="author" content="Chandra Kundu">
+    <title>UV Tutorial Part 1: Lightning-Fast Old-Style Python Project Management With UV - Chandra Kundu | PhD Candidate at UCF</title><meta name="author" content="Chandra Kundu">
 <meta name="description" content=" Part 1: Lightning-Fast Oldstyle Python Project Management with UV Part 2: Creating and Managing Python Projects with UV Part 3: Installing PyTorch with CUDA IntroductionHey there! If you&rsquo;re used to managing your Python projects with tools like pip, pyenv, virtualenv, or conda, I&rsquo;ve got some exciting news for you. There&rsquo;s a tool called uv (Universal Virtualenv) that&rsquo;s going to revolutionize your workflow. It&rsquo;s unbelievably fast – we&rsquo;re talking 10-100x faster than pip. Let&rsquo;s dive into how you can get started with uv and make your project management a breeze.
 "><meta name="keywords" content='uv, Python Package Management'>
-  <meta itemprop="name" content="UV Tutorial Part 1: Lightning-Fast Oldstyle Python Project Management with UV">
+  <meta itemprop="name" content="UV Tutorial Part 1: Lightning-Fast Old-style Python Project Management with UV">
   <meta itemprop="description" content="Part 1: Lightning-Fast Oldstyle Python Project Management with UV Part 2: Creating and Managing Python Projects with UV Part 3: Installing PyTorch with CUDA IntroductionHey there! If you’re used to managing your Python projects with tools like pip, pyenv, virtualenv, or conda, I’ve got some exciting news for you. There’s a tool called uv (Universal Virtualenv) that’s going to revolutionize your workflow. It’s unbelievably fast – we’re talking 10-100x faster than pip. Let’s dive into how you can get started with uv and make your project management a breeze.">
   <meta itemprop="datePublished" content="2024-11-23T00:37:12-04:00">
   <meta itemprop="dateModified" content="2024-11-23T00:37:12-04:00">
@@ -16,7 +16,7 @@
   <meta itemprop="image" content="https://chandrakundu.github.io/chandra-kundu.png">
   <meta itemprop="keywords" content="uv,Python Package Management"><meta property="og:url" content="https://chandrakundu.github.io/posts/uv-tutorial-1/">
   <meta property="og:site_name" content="Chandra Kundu | PhD Candidate at UCF">
-  <meta property="og:title" content="UV Tutorial Part 1: Lightning-Fast Oldstyle Python Project Management with UV">
+  <meta property="og:title" content="UV Tutorial Part 1: Lightning-Fast Old-style Python Project Management with UV">
   <meta property="og:description" content="Part 1: Lightning-Fast Oldstyle Python Project Management with UV Part 2: Creating and Managing Python Projects with UV Part 3: Installing PyTorch with CUDA IntroductionHey there! If you’re used to managing your Python projects with tools like pip, pyenv, virtualenv, or conda, I’ve got some exciting news for you. There’s a tool called uv (Universal Virtualenv) that’s going to revolutionize your workflow. It’s unbelievably fast – we’re talking 10-100x faster than pip. Let’s dive into how you can get started with uv and make your project management a breeze.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
@@ -27,18 +27,18 @@
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://chandrakundu.github.io/chandra-kundu.png">
-  <meta name="twitter:title" content="UV Tutorial Part 1: Lightning-Fast Oldstyle Python Project Management with UV">
+  <meta name="twitter:title" content="UV Tutorial Part 1: Lightning-Fast Old-style Python Project Management with UV">
   <meta name="twitter:description" content="Part 1: Lightning-Fast Oldstyle Python Project Management with UV Part 2: Creating and Managing Python Projects with UV Part 3: Installing PyTorch with CUDA IntroductionHey there! If you’re used to managing your Python projects with tools like pip, pyenv, virtualenv, or conda, I’ve got some exciting news for you. There’s a tool called uv (Universal Virtualenv) that’s going to revolutionize your workflow. It’s unbelievably fast – we’re talking 10-100x faster than pip. Let’s dive into how you can get started with uv and make your project management a breeze.">
 <meta name="application-name" content="Chandra Kundu | PhD Candidate at UCF">
 <meta name="apple-mobile-web-app-title" content="Chandra Kundu | PhD Candidate at UCF"><meta name="theme-color" data-light="#ffffff" data-dark="#ffffff" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" type="text/html" href="https://chandrakundu.github.io/posts/uv-tutorial-1/" title="UV Tutorial Part 1: Lightning-Fast Oldstyle Python Project Management with UV - Chandra Kundu | PhD Candidate at UCF" /><link rel="prev" type="text/html" href="https://chandrakundu.github.io/posts/uv-tutorial-2/" title="UV Tutorial Part 2: Creating and Managing Python Projects with UV" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" type="text/html" href="https://chandrakundu.github.io/posts/uv-tutorial-1/" title="UV Tutorial Part 1: Lightning-Fast Old-style Python Project Management with UV - Chandra Kundu | PhD Candidate at UCF" /><link rel="prev" type="text/html" href="https://chandrakundu.github.io/posts/uv-tutorial-2/" title="UV Tutorial Part 2: Creating and Managing Python Projects with UV" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><meta name="google-site-verification" content="0jwgmOu3-q1Tr-PJlcVJTwxYw-d9yLM7nyySKD9W85Y" /><script type="application/ld+json">
   {
     "@context": "http://schema.org",
     "@type": "BlogPosting",
-    "headline": "UV Tutorial Part 1: Lightning-Fast Oldstyle Python Project Management with UV",
+    "headline": "UV Tutorial Part 1: Lightning-Fast Old-style Python Project Management with UV",
     "inLanguage": "en",
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -115,7 +115,7 @@
   </div><main class="container"><aside class="aside-collection animate__animated animate__fadeIn animate__faster" aria-label="Collections"></aside>
 
   <article class="page single">
-    <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span>UV Tutorial Part 1: Lightning-Fast Oldstyle Python Project Management With UV</span>
+    <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span>UV Tutorial Part 1: Lightning-Fast Old-Style Python Project Management With UV</span>
       </h1></div><div class="post-meta">
       <div class="post-meta-line"><span class="post-author"><span class="author"><i class="fa-solid fa-user-circle" aria-hidden="true"></i>
       Chandra Kundu</span></span><span class="post-included-in">&nbsp;included in <a href="/categories/python/" class="post-category" title="Category - Python"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> Python</a></span></div><div class="post-meta-line"><span title="published on 2024-11-23 00:37:12"><i class="fa-solid fa-calendar-days fa-fw me-1" aria-hidden="true"></i><time datetime="2024-11-23">2024-11-23</time></span>&nbsp;<span title="516 words"><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>About 600 words</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>3 minutes</span>&nbsp;</div>
@@ -325,10 +325,10 @@
           </div></div><div class="post-info-line">
         <div class="post-info-md"></div>
         <div class="post-info-share">
-          <span><a href="javascript:void(0);" title="Share on X" data-sharer="twitter" data-url="https://chandrakundu.github.io/posts/uv-tutorial-1/" data-title="UV Tutorial Part 1: Lightning-Fast Oldstyle Python Project Management With UV"><i class="fa-brands fa-x-twitter fa-fw" aria-hidden="true"></i></a>
+          <span><a href="javascript:void(0);" title="Share on X" data-sharer="twitter" data-url="https://chandrakundu.github.io/posts/uv-tutorial-1/" data-title="UV Tutorial Part 1: Lightning-Fast Old-Style Python Project Management With UV"><i class="fa-brands fa-x-twitter fa-fw" aria-hidden="true"></i></a>
   <a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://chandrakundu.github.io/posts/uv-tutorial-1/"><i class="fa-brands fa-facebook-square fa-fw" aria-hidden="true"></i></a>
   <a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://chandrakundu.github.io/posts/uv-tutorial-1/"><i class="fa-brands fa-linkedin fa-fw" aria-hidden="true"></i></a>
-  <a href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="https://chandrakundu.github.io/posts/uv-tutorial-1/" data-title="UV Tutorial Part 1: Lightning-Fast Oldstyle Python Project Management With UV" data-web><i class="fa-brands fa-whatsapp fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="https://chandrakundu.github.io/posts/uv-tutorial-1/" data-title="UV Tutorial Part 1: Lightning-Fast Old-Style Python Project Management With UV" data-web><i class="fa-brands fa-whatsapp fa-fw" aria-hidden="true"></i></a>
   </span>
         </div>
       </div></div>
