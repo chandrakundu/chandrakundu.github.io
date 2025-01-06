@@ -47,10 +47,10 @@ What is Pytest?Pytest is a testing framework for Python that makes writing and 
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https:\/\/chandrakundu.github.io\/posts\/python-testing-basics-pytest\/"
-    },"image": [],"genre": "posts","wordcount":  556 ,
+    },"image": ["https:\/\/chandrakundu.github.io\/chandra-kundu.jpg"],"genre": "posts","wordcount":  556 ,
     "url": "https:\/\/chandrakundu.github.io\/posts\/python-testing-basics-pytest\/","datePublished": "2023-06-12T00:42:12-04:00","dateModified": "2024-10-22T01:38:42-04:00","publisher": {
       "@type": "Organization",
-      "name": ""},"author": {
+      "name": "Chandra Kundu","logo": "https:\/\/chandrakundu.github.io\/chandra-kundu.jpg"},"author": {
         "@type": "Person",
         "name": "Chandra Kundu"
       },"description": ""
@@ -116,33 +116,17 @@ What is Pytest?Pytest is a testing framework for Python that makes writing and 
   </div>
   <div class="search-dropdown mobile">
     <div id="search-dropdown-mobile"></div>
-  </div><main class="container"><aside class="aside-collection animate__animated animate__fadeIn animate__faster" aria-label="Collections"></aside>
+  </div><nav aria-label="breadcrumb" class="breadcrumb-container">
+    <ol class="breadcrumb"><li class="breadcrumb-item" data-separator="/"><a href="/posts/" title=""></a></li><li class="breadcrumb-item active" data-separator="/" aria-current="page">Testing in Python Fundamentals with Pytest</li>
+    </ol>
+  </nav><main class="container"><aside class="aside-collection animate__animated animate__fadeIn animate__faster" aria-label="Collections"></aside>
 
   <article class="page single">
     <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span>Testing in Python Fundamentals With Pytest</span>
       </h1></div><div class="post-meta">
       <div class="post-meta-line"><span class="post-author"><span class="author"><i class="fa-solid fa-user-circle" aria-hidden="true"></i>
       Chandra Kundu</span></span><span class="post-included-in">&nbsp;included in <a href="/categories/python/" class="post-category" title="Category - Python"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> Python</a></span></div><div class="post-meta-line"><span title="published on 2023-06-12 00:42:12"><i class="fa-solid fa-calendar-days fa-fw me-1" aria-hidden="true"></i><time datetime="2023-06-12">2023-06-12</time></span>&nbsp;<span title="Updated on 2024-10-22 01:38:42"><i class="fa-regular fa-calendar-check fa-fw me-1" aria-hidden="true"></i><time datetime="2024-10-22">2024-10-22</time></span>&nbsp;<span title="556 words"><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>About 600 words</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>3 minutes</span>&nbsp;</div>
-    </div><div class="featured-image"><img loading="lazy" src="/posts/python-testing-basics-pytest/python-testing.jpeg" alt="/posts/python-testing-basics-pytest/python-testing.jpeg" data-title="/posts/python-testing-basics-pytest/python-testing.jpeg" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></div><div class="details toc" id="toc-static" data-kept="true">
-        <div class="details-summary toc-title">
-          <span>Contents</span>
-          <span><i class="details-icon fa-solid fa-angle-right" aria-hidden="true"></i></span>
-        </div>
-        <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
-  <ul>
-    <li><a href="#what-is-pytest">What is Pytest?</a></li>
-    <li><a href="#setting-up-pytest">Setting Up Pytest</a>
-      <ul>
-        <li><a href="#installation">Installation</a></li>
-        <li><a href="#basic-structure">Basic Structure</a></li>
-      </ul>
-    </li>
-    <li><a href="#fixtures">Fixtures</a></li>
-    <li><a href="#parameterized-tests">Parameterized Tests</a></li>
-    <li><a href="#python-debugging-with-pytest">Python debugging with Pytest</a></li>
-  </ul>
-</nav></div>
-      </div><div class="content" id="content"><p>Testing is an essential part of developing applications. It helps ensure that the code works as expected and catches bugs early in the development process. In this article, we will explore the basics of testing in Python using the popular testing framework, Pytest.</p>
+    </div><div class="featured-image"><img loading="lazy" src="/posts/python-testing-basics-pytest/python-testing.jpeg" alt="/posts/python-testing-basics-pytest/python-testing.jpeg" data-title="/posts/python-testing-basics-pytest/python-testing.jpeg" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></div><div class="content" id="content"><p>Testing is an essential part of developing applications. It helps ensure that the code works as expected and catches bugs early in the development process. In this article, we will explore the basics of testing in Python using the popular testing framework, Pytest.</p>
 <h2 id="what-is-pytest" class="heading-element"><span>What is Pytest?</span>
   <a href="#what-is-pytest" class="heading-mark">
     <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
@@ -367,14 +351,13 @@ What is Pytest?Pytest is a testing framework for Python that makes writing and 
         Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript" rel="external nofollow noopener noreferrer">Disqus</a>.
       </noscript></div></article>
 
-  <aside class="toc" id="toc-auto" aria-label="Contents"><h2 class="toc-title">Contents&nbsp;<i class="toc-icon fa-solid fa-angle-down fa-fw" aria-hidden="true"></i></h2>
-      <div class="toc-content" id="toc-content-auto"></div></aside></main><footer class="footer">
+  <aside class="toc" id="toc-auto" aria-label="Contents"></aside></main><footer class="footer">
     <div class="footer-container"><div class="footer-line powered">Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="Hugo 0.136.3"><img class="hugo-icon" src="/images/hugo.min.svg" alt="Hugo logo" /> Hugo</a> | Theme - <a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external" title="FixIt v0.3.17-30a67c4b"><img class="fixit-icon" src="/images/fixit.min.svg" alt="FixIt logo" /> FixIt</a>
         </div><div class="footer-line copyright" itemscope itemtype="http://schema.org/CreativeWork"><i class="fa-regular fa-copyright fa-fw" aria-hidden="true"></i>
             <span itemprop="copyrightYear">2019 - 2025</span><span class="author" itemprop="copyrightHolder">
               <a href="/"></a></span><span class="license footer-divider"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div></div>
   </footer></div><div class="widgets"><div class="fixed-buttons animate__faster d-none"><div class="fixed-button back-to-top" role="button" aria-label="Back to Top"><i class="fa-solid fa-arrow-up fa-fw" aria-hidden="true"></i><span class="variant-numeric d-none">0%</span>
-        </div><div class="fixed-button view-comments d-none" role="button" aria-label="View Comments"><i class="fa-solid fa-comment fa-fw" aria-hidden="true"></i></div></div><div id="mask"></div><noscript>
+        </div><div class="fixed-button view-comments d-none" role="button" aria-label="View Comments"><i class="fa-solid fa-comment fa-fw" aria-hidden="true"></i></div></div><div id="mask"></div><div class="reading-progress-bar" style="left: 0;top: 0;"></div><noscript>
     <div class="noscript-warning">This website works best with JavaScript enabled.</div>
   </noscript>
 </div><link rel="preload" href="/lib/katex/katex.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
