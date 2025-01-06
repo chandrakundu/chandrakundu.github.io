@@ -116,17 +116,32 @@ Why Tmux is UsefulRun and manage multiple terminal sessions within a single win
   </div>
   <div class="search-dropdown mobile">
     <div id="search-dropdown-mobile"></div>
-  </div><nav aria-label="breadcrumb" class="breadcrumb-container">
-    <ol class="breadcrumb"><li class="breadcrumb-item" data-separator="/"><a href="/posts/" title=""></a></li><li class="breadcrumb-item active" data-separator="/" aria-current="page">How to Keep Remote Servers Running with Tmux for Days Even If You Close Your Terminal</li>
-    </ol>
-  </nav><main class="container"><aside class="aside-collection animate__animated animate__fadeIn animate__faster" aria-label="Collections"></aside>
+  </div><main class="container container-reverse"><aside class="aside-collection animate__animated animate__fadeIn animate__faster" aria-label="Collections"></aside>
 
   <article class="page single">
     <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span>How to Keep Remote Servers Running With Tmux for Days Even if You Close Your Terminal</span>
       </h1></div><div class="post-meta">
       <div class="post-meta-line"><span class="post-author"><span class="author"><i class="fa-solid fa-user-circle" aria-hidden="true"></i>
       Chandra Kundu</span></span><span class="post-included-in">&nbsp;included in <a href="/categories/linux/" class="post-category" title="Category - Linux"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> Linux</a></span></div><div class="post-meta-line"><span title="published on 2024-06-17 00:01:00"><i class="fa-solid fa-calendar-days fa-fw me-1" aria-hidden="true"></i><time datetime="2024-06-17">2024-06-17</time></span>&nbsp;<span title="Updated on 2024-07-13 16:26:34"><i class="fa-regular fa-calendar-check fa-fw me-1" aria-hidden="true"></i><time datetime="2024-07-13">2024-07-13</time></span>&nbsp;<span title="585 words"><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>About 600 words</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>3 minutes</span>&nbsp;</div>
-    </div><div class="content" id="content"><p>Tmux is a powerful terminal multiplexer that allows you to manage multiple terminal sessions within a single window. This capability is incredibly useful for keeping remote servers running for days, even if you close your terminal. In this cheat sheet, we&rsquo;ll cover essential commands and keyboard shortcuts to help you get started with Tmux.</p>
+    </div><div class="details toc" id="toc-static" data-kept="true">
+        <div class="details-summary toc-title">
+          <span>Contents</span>
+          <span><i class="details-icon fa-solid fa-angle-right" aria-hidden="true"></i></span>
+        </div>
+        <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#why-tmux-is-useful">Why Tmux is Useful</a></li>
+    <li><a href="#installation">Installation</a>
+      <ul>
+        <li><a href="#ubuntu">Ubuntu</a></li>
+      </ul>
+    </li>
+    <li><a href="#creating-and-managing-sessions">Creating and Managing Sessions</a></li>
+    <li><a href="#keyboard-shortcuts">Keyboard Shortcuts</a></li>
+    <li><a href="#customizing-tmux-mouse-scrolling-status-bar-and-more">Customizing Tmux: Mouse Scrolling, Status Bar, and More</a></li>
+  </ul>
+</nav></div>
+      </div><div class="content" id="content"><p>Tmux is a powerful terminal multiplexer that allows you to manage multiple terminal sessions within a single window. This capability is incredibly useful for keeping remote servers running for days, even if you close your terminal. In this cheat sheet, we&rsquo;ll cover essential commands and keyboard shortcuts to help you get started with Tmux.</p>
 <h2 id="why-tmux-is-useful" class="heading-element"><span>Why Tmux is Useful</span>
   <a href="#why-tmux-is-useful" class="heading-mark">
     <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
@@ -343,7 +358,8 @@ Why Tmux is UsefulRun and manage multiple terminal sessions within a single win
         Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript" rel="external nofollow noopener noreferrer">Disqus</a>.
       </noscript></div></article>
 
-  <aside class="toc" id="toc-auto" aria-label="Contents"></aside></main><footer class="footer">
+  <aside class="toc" id="toc-auto" aria-label="Contents"><h2 class="toc-title">Contents&nbsp;<i class="toc-icon fa-solid fa-angle-down fa-fw" aria-hidden="true"></i></h2>
+      <div class="toc-content" id="toc-content-auto"></div></aside></main><footer class="footer">
     <div class="footer-container"><div class="footer-line powered">Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="Hugo 0.136.3"><img class="hugo-icon" src="/images/hugo.min.svg" alt="Hugo logo" /> Hugo</a> | Theme - <a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external" title="FixIt v0.3.17-30a67c4b"><img class="fixit-icon" src="/images/fixit.min.svg" alt="FixIt logo" /> FixIt</a>
         </div><div class="footer-line copyright" itemscope itemtype="http://schema.org/CreativeWork"><i class="fa-regular fa-copyright fa-fw" aria-hidden="true"></i>
             <span itemprop="copyrightYear">2019 - 2025</span><span class="author" itemprop="copyrightHolder">
