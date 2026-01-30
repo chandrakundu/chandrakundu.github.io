@@ -10,15 +10,15 @@
 ">
   <meta itemprop="name" content="Research">
   <meta itemprop="description" content="Research OverviewMy research lies at the intersection of Mathematics and Artificial Intelligence. I develop efficient, theoretically grounded algorithms augmented by machine learning and neural networks for analyzing high-dimensional data that are often noisy, incomplete or corrupted. These methods have broad impact across hyperspectral imaging, video surveillance, biomedical data, and Internet of Things (IoT) systems.">
-  <meta itemprop="dateModified" content="2026-01-25T16:32:05-05:00">
-  <meta itemprop="wordCount" content="942">
+  <meta itemprop="dateModified" content="2026-01-26T00:54:48-05:00">
+  <meta itemprop="wordCount" content="918">
   <meta itemprop="image" content="https://chandrakundu.github.io/chandra-kundu.png"><meta property="og:url" content="https://chandrakundu.github.io/research/">
   <meta property="og:site_name" content="Chandra Kundu | PhD Candidate at UCF">
   <meta property="og:title" content="Research">
   <meta property="og:description" content="Research OverviewMy research lies at the intersection of Mathematics and Artificial Intelligence. I develop efficient, theoretically grounded algorithms augmented by machine learning and neural networks for analyzing high-dimensional data that are often noisy, incomplete or corrupted. These methods have broad impact across hyperspectral imaging, video surveillance, biomedical data, and Internet of Things (IoT) systems.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
-    <meta property="article:modified_time" content="2026-01-25T16:32:05-05:00">
+    <meta property="article:modified_time" content="2026-01-26T00:54:48-05:00">
     <meta property="og:image" content="https://chandrakundu.github.io/chandra-kundu.png">
 
   <meta name="twitter:card" content="summary_large_image">
@@ -39,8 +39,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https:\/\/chandrakundu.github.io\/research\/"
-    },"image": ["https:\/\/chandrakundu.github.io\/chandra-kundu.jpg"],"genre": "page","wordcount":  942 ,
-    "url": "https:\/\/chandrakundu.github.io\/research\/","dateModified": "2026-01-25T16:32:05-05:00","publisher": {
+    },"image": ["https:\/\/chandrakundu.github.io\/chandra-kundu.jpg"],"genre": "page","wordcount":  918 ,
+    "url": "https:\/\/chandrakundu.github.io\/research\/","dateModified": "2026-01-26T00:54:48-05:00","publisher": {
       "@type": "Organization",
       "name": "Chandra Kundu","logo": "https:\/\/chandrakundu.github.io\/chandra-kundu.jpg"},"author": {
         "@type": "Person",
@@ -151,14 +151,14 @@
   <a href="#weighted-matrix-completion" class="heading-mark">
     <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
   </a>
-</h3><p>Weighted Matrix Completion (WMC) is another key area of my research, aimed at incorporating prior subspace information to improve recovery performance. The work centers on compressive hyperspectral imaging in pushbroom remote sensing. Hyperspectral data are captured as a 3D cube of spatial pixels $(x, y)$ and spectral channels $(z)$, as illustrated below.  The key challenge is to reconstruct high-dimensional data slices $D$ in real time from only a small, incomplete set of observed entries $b$ (see Figure 2).</p>
-<figure><img src="/research/HS_slice3.png"
-    alt="Figure 2: Compressive hyperspectral imaging: data are captured as a 3D cube of spatial pixels $(x, y)$ and spectral channels $(z)$. Each slice D is low-rank, and only a subset of its entries b are observed." width="800"><figcaption>
-      <p>Figure 2: Compressive hyperspectral imaging: data are captured as a 3D cube of spatial pixels $(x, y)$ and spectral channels $(z)$. Each slice D is low-rank, and only a subset of its entries b are observed.</p>
+</h3><p>Weighted Matrix Completion (WMC) is another key area of my research, aimed at incorporating prior subspace information to improve recovery performance. One primary application is compressive hyperspectral imaging in pushbroom remote sensing. Hyperspectral data are acquired as a 3D cube of spatial pixels $(x, y)$ and spectral channels $(z)$, as shown in Figure 2.  The central challenge is to reconstruct each high-dimensional data slice $D$ in real time from only a small, incomplete set of observed entries $b$.</p>
+<figure><img src="/research/hsi_imaging.png"
+    alt="Figure 2: From satellite acquisition to ground reconstruction: DMD-based compression produces sparse measurements $b$, then weighted matrix completion recovers the hyperspectral slice $D$." width="800"><figcaption>
+      <p>Figure 2: From satellite acquisition to ground reconstruction: DMD-based compression produces sparse measurements $b$, then weighted matrix completion recovers the hyperspectral slice $D$.</p>
     </figcaption>
 </figure>
 
-<p>We are currently working on developing a novel WMC framework that will use prior knowledge from the previously reconstructed slice to recover the current slice. Crucially, we use machine learning to automatically predict the optimal weight for each slice, ensuring the fastest, most accurate real-time streaming reconstruction for efficient data processing.</p>
+<p>We are currently developing a streaming WMC framework that leverages information from the previously reconstructed slice to guide recovery of the current slice. In addition, we use machine learning to adaptively learn slice-specific weights, enabling fast and accurate real-time reconstruction.</p>
 <h3 id="collaborative-research" class="heading-element"><span>Collaborative Research</span>
   <a href="#collaborative-research" class="heading-mark">
     <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
