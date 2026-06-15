@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
     <meta name="robots" content="noodp" />
-    <title>Testing in Python Fundamentals With Pytest - Chandra Kundu | PhD Candidate at UCF</title><meta name="author" content="Chandra Kundu">
+    <title>Testing in Python Fundamentals With Pytest - Chandra Kundu | Data Science Researcher</title><meta name="author" content="Chandra Kundu">
 <meta name="description" content="Testing is an essential part of developing applications. It helps ensure that the code works as expected and catches bugs early in the development process. In this article, we will explore the basics of testing in Python using the popular testing framework, Pytest.
 What is Pytest?Pytest is a testing framework for Python that makes writing and running tests simple and efficient. It provides a rich set of features for writing test cases, including fixtures, parameterized tests, and test discovery. Pytest is widely used in the Python community and is known for its simplicity and ease of use.
 "><meta name="keywords" content='pytest, testing, mlops, programming'>
@@ -17,7 +17,7 @@ What is Pytest?Pytest is a testing framework for Python that makes writing and 
   <meta itemprop="wordCount" content="556">
   <meta itemprop="image" content="https://chandrakundu.github.io/chandra-kundu.png">
   <meta itemprop="keywords" content="pytest,testing,mlops,programming"><meta property="og:url" content="https://chandrakundu.github.io/posts/python-testing-basics-pytest/">
-  <meta property="og:site_name" content="Chandra Kundu | PhD Candidate at UCF">
+  <meta property="og:site_name" content="Chandra Kundu | Data Science Researcher">
   <meta property="og:title" content="Testing in Python Fundamentals with Pytest">
   <meta property="og:description" content="Testing is an essential part of developing applications. It helps ensure that the code works as expected and catches bugs early in the development process. In this article, we will explore the basics of testing in Python using the popular testing framework, Pytest.
 What is Pytest?Pytest is a testing framework for Python that makes writing and running tests simple and efficient. It provides a rich set of features for writing test cases, including fixtures, parameterized tests, and test discovery. Pytest is widely used in the Python community and is known for its simplicity and ease of use.">
@@ -33,10 +33,10 @@ What is Pytest?Pytest is a testing framework for Python that makes writing and 
   <meta name="twitter:title" content="Testing in Python Fundamentals with Pytest">
   <meta name="twitter:description" content="Testing is an essential part of developing applications. It helps ensure that the code works as expected and catches bugs early in the development process. In this article, we will explore the basics of testing in Python using the popular testing framework, Pytest.
 What is Pytest?Pytest is a testing framework for Python that makes writing and running tests simple and efficient. It provides a rich set of features for writing test cases, including fixtures, parameterized tests, and test discovery. Pytest is widely used in the Python community and is known for its simplicity and ease of use.">
-<meta name="application-name" content="Chandra Kundu | PhD Candidate at UCF">
-<meta name="apple-mobile-web-app-title" content="Chandra Kundu | PhD Candidate at UCF"><meta name="theme-color" data-light="#ffffff" data-dark="#ffffff" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+<meta name="application-name" content="Chandra Kundu | PhD in Big Data Analytics">
+<meta name="apple-mobile-web-app-title" content="Chandra Kundu | PhD in Big Data Analytics"><meta name="theme-color" data-light="#ffffff" data-dark="#ffffff" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" type="text/html" href="https://chandrakundu.github.io/posts/python-testing-basics-pytest/" title="Testing in Python Fundamentals with Pytest - Chandra Kundu | PhD Candidate at UCF" /><link rel="prev" type="text/html" href="https://chandrakundu.github.io/posts/linux-fundamentals/linux-fundamentals-1/" title="Linux Fundamentals 1" /><link rel="next" type="text/html" href="https://chandrakundu.github.io/posts/creating-website-with-hugo-on-windows/" title="Create Website with Blog using Hugo on Windows" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" type="text/html" href="https://chandrakundu.github.io/posts/python-testing-basics-pytest/" title="Testing in Python Fundamentals with Pytest - Chandra Kundu | Data Science Researcher" /><link rel="prev" type="text/html" href="https://chandrakundu.github.io/posts/linux-fundamentals/linux-fundamentals-1/" title="Linux Fundamentals 1" /><link rel="next" type="text/html" href="https://chandrakundu.github.io/posts/creating-website-with-hugo-on-windows/" title="Create Website with Blog using Hugo on Windows" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><meta name="google-site-verification" content="0jwgmOu3-q1Tr-PJlcVJTwxYw-d9yLM7nyySKD9W85Y" /><script type="application/ld+json">
   {
@@ -59,7 +59,7 @@ What is Pytest?Pytest is a testing framework for Python that makes writing and 
   <body data-header-desktop="fixed" data-header-mobile="auto"><div class="wrapper" data-page-style="normal"><header class="desktop animate__faster" id="header-desktop">
   <div class="header-wrapper">
     <div class="header-title">
-      <a href="/" title="Chandra Kundu | PhD Candidate at UCF"><span class="header-title-text">Chandra Kundu</span></a><span class="header-subtitle"></span></div>
+      <a href="/" title="Chandra Kundu | Data Science Researcher"><span class="header-title-text">Chandra Kundu</span></a><span class="header-subtitle"></span></div>
     <nav>
       <ul class="menu"><li class="menu-item">
               <a class="menu-link" href="/">Home</a></li><li class="menu-item">
@@ -86,7 +86,7 @@ What is Pytest?Pytest is a testing framework for Python that makes writing and 
   <div class="header-container">
     <div class="header-wrapper">
       <div class="header-title">
-        <a href="/" title="Chandra Kundu | PhD Candidate at UCF"><span class="header-title-text">Chandra Kundu</span></a><span class="header-subtitle"></span></div>
+        <a href="/" title="Chandra Kundu | Data Science Researcher"><span class="header-title-text">Chandra Kundu</span></a><span class="header-subtitle"></span></div>
       <div class="menu-toggle" id="menu-toggle-mobile">
         <span></span><span></span><span></span>
       </div>

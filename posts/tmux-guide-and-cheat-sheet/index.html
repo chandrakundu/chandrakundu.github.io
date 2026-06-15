@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
     <meta name="robots" content="noodp" />
-    <title>How to Keep Remote Servers Running With Tmux for Days Even if You Close Your Terminal - Chandra Kundu | PhD Candidate at UCF</title><meta name="author" content="Chandra Kundu">
+    <title>How to Keep Remote Servers Running With Tmux for Days Even if You Close Your Terminal - Chandra Kundu | Data Science Researcher</title><meta name="author" content="Chandra Kundu">
 <meta name="description" content="Tmux is a powerful terminal multiplexer that allows you to manage multiple terminal sessions within a single window. This capability is incredibly useful for keeping remote servers running for days, even if you close your terminal. In this cheat sheet, we&rsquo;ll cover essential commands and keyboard shortcuts to help you get started with Tmux.
 Why Tmux is UsefulRun and manage multiple terminal sessions within a single window. Easily switch between them using keyboard shortcuts. Detach from a session and reattach later to pick up right where you left off. Keep processes running even after you close your terminal, ensuring uninterrupted server tasks. InstallationUbuntu1 2 sudo apt-get update sudo apt-get install tmux Creating and Managing SessionsCreate a New Session
 "><meta name="keywords" content='Tmux, Terminal Multiplexer, Linux Commands'>
@@ -17,7 +17,7 @@ Why Tmux is UsefulRun and manage multiple terminal sessions within a single win
   <meta itemprop="wordCount" content="585">
   <meta itemprop="image" content="https://chandrakundu.github.io/chandra-kundu.png">
   <meta itemprop="keywords" content="Tmux,Terminal Multiplexer,Linux Commands"><meta property="og:url" content="https://chandrakundu.github.io/posts/tmux-guide-and-cheat-sheet/">
-  <meta property="og:site_name" content="Chandra Kundu | PhD Candidate at UCF">
+  <meta property="og:site_name" content="Chandra Kundu | Data Science Researcher">
   <meta property="og:title" content="How to Keep Remote Servers Running with Tmux for Days Even If You Close Your Terminal">
   <meta property="og:description" content="Tmux is a powerful terminal multiplexer that allows you to manage multiple terminal sessions within a single window. This capability is incredibly useful for keeping remote servers running for days, even if you close your terminal. In this cheat sheet, we’ll cover essential commands and keyboard shortcuts to help you get started with Tmux.
 Why Tmux is UsefulRun and manage multiple terminal sessions within a single window. Easily switch between them using keyboard shortcuts. Detach from a session and reattach later to pick up right where you left off. Keep processes running even after you close your terminal, ensuring uninterrupted server tasks. InstallationUbuntu1 2 sudo apt-get update sudo apt-get install tmux Creating and Managing SessionsCreate a New Session">
@@ -33,10 +33,10 @@ Why Tmux is UsefulRun and manage multiple terminal sessions within a single win
   <meta name="twitter:title" content="How to Keep Remote Servers Running with Tmux for Days Even If You Close Your Terminal">
   <meta name="twitter:description" content="Tmux is a powerful terminal multiplexer that allows you to manage multiple terminal sessions within a single window. This capability is incredibly useful for keeping remote servers running for days, even if you close your terminal. In this cheat sheet, we’ll cover essential commands and keyboard shortcuts to help you get started with Tmux.
 Why Tmux is UsefulRun and manage multiple terminal sessions within a single window. Easily switch between them using keyboard shortcuts. Detach from a session and reattach later to pick up right where you left off. Keep processes running even after you close your terminal, ensuring uninterrupted server tasks. InstallationUbuntu1 2 sudo apt-get update sudo apt-get install tmux Creating and Managing SessionsCreate a New Session">
-<meta name="application-name" content="Chandra Kundu | PhD Candidate at UCF">
-<meta name="apple-mobile-web-app-title" content="Chandra Kundu | PhD Candidate at UCF"><meta name="theme-color" data-light="#ffffff" data-dark="#ffffff" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+<meta name="application-name" content="Chandra Kundu | PhD in Big Data Analytics">
+<meta name="apple-mobile-web-app-title" content="Chandra Kundu | PhD in Big Data Analytics"><meta name="theme-color" data-light="#ffffff" data-dark="#ffffff" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" type="text/html" href="https://chandrakundu.github.io/posts/tmux-guide-and-cheat-sheet/" title="How to Keep Remote Servers Running with Tmux for Days Even If You Close Your Terminal - Chandra Kundu | PhD Candidate at UCF" /><link rel="prev" type="text/html" href="https://chandrakundu.github.io/posts/handling-relative-paths-in-python-projects/" title="Handling Relative Paths in Python Projects" /><link rel="next" type="text/html" href="https://chandrakundu.github.io/cv/" title="Curriculum Vitae" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" type="text/html" href="https://chandrakundu.github.io/posts/tmux-guide-and-cheat-sheet/" title="How to Keep Remote Servers Running with Tmux for Days Even If You Close Your Terminal - Chandra Kundu | Data Science Researcher" /><link rel="prev" type="text/html" href="https://chandrakundu.github.io/posts/handling-relative-paths-in-python-projects/" title="Handling Relative Paths in Python Projects" /><link rel="next" type="text/html" href="https://chandrakundu.github.io/cv/" title="Curriculum Vitae" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><meta name="google-site-verification" content="0jwgmOu3-q1Tr-PJlcVJTwxYw-d9yLM7nyySKD9W85Y" /><script type="application/ld+json">
   {
@@ -59,7 +59,7 @@ Why Tmux is UsefulRun and manage multiple terminal sessions within a single win
   <body data-header-desktop="fixed" data-header-mobile="auto"><div class="wrapper" data-page-style="normal"><header class="desktop animate__faster" id="header-desktop">
   <div class="header-wrapper">
     <div class="header-title">
-      <a href="/" title="Chandra Kundu | PhD Candidate at UCF"><span class="header-title-text">Chandra Kundu</span></a><span class="header-subtitle"></span></div>
+      <a href="/" title="Chandra Kundu | Data Science Researcher"><span class="header-title-text">Chandra Kundu</span></a><span class="header-subtitle"></span></div>
     <nav>
       <ul class="menu"><li class="menu-item">
               <a class="menu-link" href="/">Home</a></li><li class="menu-item">
@@ -86,7 +86,7 @@ Why Tmux is UsefulRun and manage multiple terminal sessions within a single win
   <div class="header-container">
     <div class="header-wrapper">
       <div class="header-title">
-        <a href="/" title="Chandra Kundu | PhD Candidate at UCF"><span class="header-title-text">Chandra Kundu</span></a><span class="header-subtitle"></span></div>
+        <a href="/" title="Chandra Kundu | Data Science Researcher"><span class="header-title-text">Chandra Kundu</span></a><span class="header-subtitle"></span></div>
       <div class="menu-toggle" id="menu-toggle-mobile">
         <span></span><span></span><span></span>
       </div>

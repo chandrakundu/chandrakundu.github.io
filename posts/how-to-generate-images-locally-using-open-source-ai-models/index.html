@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
     <meta name="robots" content="noodp" />
-    <title>How to Generate Images Locally Using Open Source AI Models - Chandra Kundu | PhD Candidate at UCF</title><meta name="author" content="Chandra Kundu">
+    <title>How to Generate Images Locally Using Open Source AI Models - Chandra Kundu | Data Science Researcher</title><meta name="author" content="Chandra Kundu">
 <meta name="description" content="Generating images locally using open-source AI models is a fascinating way to leverage AI&rsquo;s creative potential. Among the available tools, Invoke AI stands out due to its ease of installation and robust features. While Automatic1111 is popular, Invoke AI offers a more streamlined experience for beginners and advanced users alike. Here&rsquo;s a guide to help you set up and run Invoke AI on your local Windows computer.
 PrerequisitesBefore diving into the installation process, ensure you have the following:
 "><meta name="keywords" content='Invoke AI, Open Source AI Models, Image Generation'>
@@ -17,7 +17,7 @@ PrerequisitesBefore diving into the installation process, ensure you have the f
   <meta itemprop="wordCount" content="331">
   <meta itemprop="image" content="https://chandrakundu.github.io/chandra-kundu.png">
   <meta itemprop="keywords" content="Invoke AI,Open Source AI Models,Image Generation"><meta property="og:url" content="https://chandrakundu.github.io/posts/how-to-generate-images-locally-using-open-source-ai-models/">
-  <meta property="og:site_name" content="Chandra Kundu | PhD Candidate at UCF">
+  <meta property="og:site_name" content="Chandra Kundu | Data Science Researcher">
   <meta property="og:title" content="How to Generate Images Locally Using Open Source AI Models">
   <meta property="og:description" content="Generating images locally using open-source AI models is a fascinating way to leverage AI’s creative potential. Among the available tools, Invoke AI stands out due to its ease of installation and robust features. While Automatic1111 is popular, Invoke AI offers a more streamlined experience for beginners and advanced users alike. Here’s a guide to help you set up and run Invoke AI on your local Windows computer.
 PrerequisitesBefore diving into the installation process, ensure you have the following:">
@@ -33,10 +33,10 @@ PrerequisitesBefore diving into the installation process, ensure you have the f
   <meta name="twitter:title" content="How to Generate Images Locally Using Open Source AI Models">
   <meta name="twitter:description" content="Generating images locally using open-source AI models is a fascinating way to leverage AI’s creative potential. Among the available tools, Invoke AI stands out due to its ease of installation and robust features. While Automatic1111 is popular, Invoke AI offers a more streamlined experience for beginners and advanced users alike. Here’s a guide to help you set up and run Invoke AI on your local Windows computer.
 PrerequisitesBefore diving into the installation process, ensure you have the following:">
-<meta name="application-name" content="Chandra Kundu | PhD Candidate at UCF">
-<meta name="apple-mobile-web-app-title" content="Chandra Kundu | PhD Candidate at UCF"><meta name="theme-color" data-light="#ffffff" data-dark="#ffffff" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+<meta name="application-name" content="Chandra Kundu | PhD in Big Data Analytics">
+<meta name="apple-mobile-web-app-title" content="Chandra Kundu | PhD in Big Data Analytics"><meta name="theme-color" data-light="#ffffff" data-dark="#ffffff" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" type="text/html" href="https://chandrakundu.github.io/posts/how-to-generate-images-locally-using-open-source-ai-models/" title="How to Generate Images Locally Using Open Source AI Models - Chandra Kundu | PhD Candidate at UCF" /><link rel="prev" type="text/html" href="https://chandrakundu.github.io/posts/how-to-create-ai-chatbot/" title="How to create a chatbot like ChatGPT by running LLM locally in Windows via Ollama and Open WebUI" /><link rel="next" type="text/html" href="https://chandrakundu.github.io/posts/handling-relative-paths-in-python-projects/" title="Handling Relative Paths in Python Projects" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" type="text/html" href="https://chandrakundu.github.io/posts/how-to-generate-images-locally-using-open-source-ai-models/" title="How to Generate Images Locally Using Open Source AI Models - Chandra Kundu | Data Science Researcher" /><link rel="prev" type="text/html" href="https://chandrakundu.github.io/posts/how-to-create-ai-chatbot/" title="How to create a chatbot like ChatGPT by running LLM locally in Windows via Ollama and Open WebUI" /><link rel="next" type="text/html" href="https://chandrakundu.github.io/posts/handling-relative-paths-in-python-projects/" title="Handling Relative Paths in Python Projects" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><meta name="google-site-verification" content="0jwgmOu3-q1Tr-PJlcVJTwxYw-d9yLM7nyySKD9W85Y" /><script type="application/ld+json">
   {
@@ -59,7 +59,7 @@ PrerequisitesBefore diving into the installation process, ensure you have the f
   <body data-header-desktop="fixed" data-header-mobile="auto"><div class="wrapper" data-page-style="normal"><header class="desktop animate__faster" id="header-desktop">
   <div class="header-wrapper">
     <div class="header-title">
-      <a href="/" title="Chandra Kundu | PhD Candidate at UCF"><span class="header-title-text">Chandra Kundu</span></a><span class="header-subtitle"></span></div>
+      <a href="/" title="Chandra Kundu | Data Science Researcher"><span class="header-title-text">Chandra Kundu</span></a><span class="header-subtitle"></span></div>
     <nav>
       <ul class="menu"><li class="menu-item">
               <a class="menu-link" href="/">Home</a></li><li class="menu-item">
@@ -86,7 +86,7 @@ PrerequisitesBefore diving into the installation process, ensure you have the f
   <div class="header-container">
     <div class="header-wrapper">
       <div class="header-title">
-        <a href="/" title="Chandra Kundu | PhD Candidate at UCF"><span class="header-title-text">Chandra Kundu</span></a><span class="header-subtitle"></span></div>
+        <a href="/" title="Chandra Kundu | Data Science Researcher"><span class="header-title-text">Chandra Kundu</span></a><span class="header-subtitle"></span></div>
       <div class="menu-toggle" id="menu-toggle-mobile">
         <span></span><span></span><span></span>
       </div>
