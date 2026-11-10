@@ -10,7 +10,7 @@
   <meta itemprop="name" content="UV Tutorial Part 1: Lightning-Fast Old-style Python Project Management with UV">
   <meta itemprop="description" content="UV tutorial part 1: use uv, a very fast Python package manager, in place of pip, pyenv, virtualenv, and conda in your existing workflow.">
   <meta itemprop="datePublished" content="2024-11-23T00:37:12-04:00">
-  <meta itemprop="dateModified" content="2024-12-23T00:41:54-05:00">
+  <meta itemprop="dateModified" content="2026-11-10T02:08:01-05:00">
   <meta itemprop="wordCount" content="516">
   <meta itemprop="image" content="https://chandrakundu.github.io/chandra-kundu.jpg">
   <meta itemprop="keywords" content="uv,Python Package Management"><meta property="og:url" content="https://chandrakundu.github.io/posts/uv-tutorial-1/">
@@ -21,7 +21,7 @@
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2024-11-23T00:37:12-04:00">
-    <meta property="article:modified_time" content="2024-12-23T00:41:54-05:00">
+    <meta property="article:modified_time" content="2026-11-10T02:08:01-05:00">
     <meta property="og:image" content="https://chandrakundu.github.io/chandra-kundu.jpg">
 
   <meta name="twitter:card" content="summary_large_image">
@@ -29,9 +29,7 @@
   <meta name="twitter:title" content="UV Tutorial Part 1: Lightning-Fast Old-style Python Project Management with UV">
   <meta name="twitter:description" content="UV tutorial part 1: use uv, a very fast Python package manager, in place of pip, pyenv, virtualenv, and conda in your existing workflow.">
 <meta name="application-name" content="Chandra Kundu | Postdoctoral Scholar">
-<meta name="apple-mobile-web-app-title" content="Chandra Kundu | Postdoctoral Scholar"><meta name="theme-color" data-light="#ffffff" data-dark="#ffffff" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" type="text/html" href="https://chandrakundu.github.io/posts/uv-tutorial-1/" title="UV Tutorial Part 1: Lightning-Fast Old-style Python Project Management with UV - Chandra Kundu | Postdoctoral Scholar" /><link rel="prev" type="text/html" href="https://chandrakundu.github.io/posts/uv-tutorial-2/" title="UV Tutorial Part 2: Creating and Managing Python Projects with UV" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+<meta name="apple-mobile-web-app-title" content="Chandra Kundu | Postdoctoral Scholar"><meta name="theme-color" data-light="#ffffff" data-dark="#ffffff" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="/favicon.svg"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" type="text/html" href="https://chandrakundu.github.io/posts/uv-tutorial-1/" title="UV Tutorial Part 1: Lightning-Fast Old-style Python Project Management with UV - Chandra Kundu | Postdoctoral Scholar" /><link rel="prev" type="text/html" href="https://chandrakundu.github.io/posts/uv-tutorial-2/" title="UV Tutorial Part 2: Creating and Managing Python Projects with UV" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><meta name="google-site-verification" content="0jwgmOu3-q1Tr-PJlcVJTwxYw-d9yLM7nyySKD9W85Y" /><meta name="msvalidate.01" content="3F6B0B92E269C0F3E57813BB71C869AA" /><script type="application/ld+json">
   {
@@ -43,7 +41,7 @@
       "@type": "WebPage",
       "@id": "https:\/\/chandrakundu.github.io\/posts\/uv-tutorial-1\/"
     },"image": ["https:\/\/chandrakundu.github.io\/chandra-kundu.jpg"],"genre": "posts","wordcount":  516 ,
-    "url": "https:\/\/chandrakundu.github.io\/posts\/uv-tutorial-1\/","datePublished": "2024-11-23T00:37:12-04:00","dateModified": "2024-12-23T00:41:54-05:00","publisher": {
+    "url": "https:\/\/chandrakundu.github.io\/posts\/uv-tutorial-1\/","datePublished": "2024-11-23T00:37:12-04:00","dateModified": "2026-11-10T02:08:01-05:00","publisher": {
       "@type": "Organization",
       "name": "Chandra Kundu","logo": "https:\/\/chandrakundu.github.io\/chandra-kundu.jpg"},"author": {
         "@type": "Person",
@@ -118,7 +116,7 @@
   <article class="page single">
     <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span>UV Tutorial Part 1: Lightning-Fast Old-Style Python Project Management With UV</span>
       </h1></div><div class="post-meta">
-      <div class="post-meta-line"><span class="post-author"><a href="https://chandrakundu.github.io" title="Author"target="_blank" rel="external nofollow noopener noreferrer author" class="author"><img loading="lazy" src="chandra-kundu.jpg" alt="Chandra Kundu" data-title="Chandra Kundu" width="20" height="20" class="avatar" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&nbsp;Chandra Kundu</a></span><span class="post-included-in">&nbsp;included in <a href="/categories/python/" class="post-category" title="Category - Python"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> Python</a></span></div><div class="post-meta-line"><span title="published on 2024-11-23 00:37:12"><i class="fa-solid fa-calendar-days fa-fw me-1" aria-hidden="true"></i><time datetime="2024-11-23">2024-11-23</time></span>&nbsp;<span title="Updated on 2024-12-23 00:41:54"><i class="fa-regular fa-calendar-check fa-fw me-1" aria-hidden="true"></i><time datetime="2024-12-23">2024-12-23</time></span>&nbsp;<span title="516 words"><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>About 600 words</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>3 minutes</span>&nbsp;</div>
+      <div class="post-meta-line"><span class="post-author"><a href="https://chandrakundu.github.io" title="Author"target="_blank" rel="external nofollow noopener noreferrer author" class="author"><img loading="lazy" src="chandra-kundu.jpg" alt="Chandra Kundu" data-title="Chandra Kundu" width="20" height="20" class="avatar" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&nbsp;Chandra Kundu</a></span><span class="post-included-in">&nbsp;included in <a href="/categories/python/" class="post-category" title="Category - Python"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> Python</a></span></div><div class="post-meta-line"><span title="published on 2024-11-23 00:37:12"><i class="fa-solid fa-calendar-days fa-fw me-1" aria-hidden="true"></i><time datetime="2024-11-23">2024-11-23</time></span>&nbsp;<span title="Updated on 2026-11-10 02:08:01"><i class="fa-regular fa-calendar-check fa-fw me-1" aria-hidden="true"></i><time datetime="2026-11-10">2026-11-10</time></span>&nbsp;<span title="516 words"><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>About 600 words</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>3 minutes</span>&nbsp;</div>
     </div><div class="featured-image"><img loading="lazy" src="/posts/uv-tutorial-1/uv-tutorial.png" alt="/posts/uv-tutorial-1/uv-tutorial.png" data-title="UV tutorial part 1: use uv, a very fast Python package manager, in place of pip, pyenv, virtualenv, and conda in your existing workflow." style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></div><div class="details toc" id="toc-static" data-kept="true">
         <div class="details-summary toc-title">
           <span>Contents</span>
@@ -323,7 +321,7 @@
   <div class="post-info">
     <div class="post-info-line">
       <div class="post-info-mod">
-        <span title="Updated on 2024-12-23 00:41:54">Updated on 2024-12-23&nbsp;</span>
+        <span title="Updated on 2026-11-10 02:08:01">Updated on 2026-11-10&nbsp;</span>
       </div><div class="post-info-license">
             <span><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span>
           </div></div><div class="post-info-line">
