@@ -3,9 +3,11 @@
   <channel>
     <title>Tags - Tag - Chandra Kundu | Postdoctoral Scholar</title>
     <link>https://chandrakundu.github.io/tags/</link>
-    <description>Chandra Kundu is a postdoctoral scholar at the University of Central Florida with a Ph.D. in Big Data Analytics from the University of Central Florida. His research focuses on robust PCA, matrix completion, and deep unfolding.</description>
+    <description>Chandra Kundu is a postdoc at UCF with a Ph.D. in Big Data Analytics. He develops deep learning-enhanced algorithms for noisy and incomplete data.</description>
     <generator>Hugo 0.136.3 &amp; FixIt v0.3.17-30a67c4b</generator>
     <language>en</language>
+    <managingEditor>chandra.kundu@ucf.edu (Chandra Kundu)</managingEditor>
+    <webMaster>chandra.kundu@ucf.edu (Chandra Kundu)</webMaster>
     <lastBuildDate></lastBuildDate>
     <atom:link href="https://chandrakundu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>

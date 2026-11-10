@@ -3,43 +3,45 @@
   <channel>
     <title>Categories - Category - Chandra Kundu | Postdoctoral Scholar</title>
     <link>https://chandrakundu.github.io/categories/</link>
-    <description>Chandra Kundu is a postdoctoral scholar at the University of Central Florida with a Ph.D. in Big Data Analytics from the University of Central Florida. His research focuses on robust PCA, matrix completion, and deep unfolding.</description>
+    <description>Chandra Kundu is a postdoc at UCF with a Ph.D. in Big Data Analytics. He develops deep learning-enhanced algorithms for noisy and incomplete data.</description>
     <generator>Hugo 0.136.3 &amp; FixIt v0.3.17-30a67c4b</generator>
     <language>en</language>
+    <managingEditor>chandra.kundu@ucf.edu (Chandra Kundu)</managingEditor>
+    <webMaster>chandra.kundu@ucf.edu (Chandra Kundu)</webMaster>
     <lastBuildDate>Mon, 23 Dec 2024 00:41:54 -0500</lastBuildDate>
     <atom:link href="https://chandrakundu.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python</title>
       <link>https://chandrakundu.github.io/categories/python/</link>
-      <pubDate>Sat, 23 Nov 2024 00:37:12 -0400</pubDate>
+      <pubDate>Sat, 23 Nov 2024 00:37:12 -0400</pubDate><author>chandra.kundu@ucf.edu (Chandra Kundu)</author>
       <guid>https://chandrakundu.github.io/categories/python/</guid>
       <description>Python</description>
     </item>
     <item>
       <title>Linux</title>
       <link>https://chandrakundu.github.io/categories/linux/</link>
-      <pubDate>Mon, 17 Jun 2024 00:01:00 -0400</pubDate>
+      <pubDate>Mon, 17 Jun 2024 00:01:00 -0400</pubDate><author>chandra.kundu@ucf.edu (Chandra Kundu)</author>
       <guid>https://chandrakundu.github.io/categories/linux/</guid>
       <description>Linux</description>
     </item>
     <item>
       <title>AI</title>
       <link>https://chandrakundu.github.io/categories/ai/</link>
-      <pubDate>Wed, 12 Jun 2024 00:37:12 -1200</pubDate>
+      <pubDate>Wed, 12 Jun 2024 00:37:12 -1200</pubDate><author>chandra.kundu@ucf.edu (Chandra Kundu)</author>
       <guid>https://chandrakundu.github.io/categories/ai/</guid>
       <description>AI</description>
     </item>
     <item>
       <title>LaTeX</title>
       <link>https://chandrakundu.github.io/categories/latex/</link>
-      <pubDate>Thu, 16 Nov 2023 20:53:47 -0500</pubDate>
+      <pubDate>Thu, 16 Nov 2023 20:53:47 -0500</pubDate><author>chandra.kundu@ucf.edu (Chandra Kundu)</author>
       <guid>https://chandrakundu.github.io/categories/latex/</guid>
       <description>LaTeX</description>
     </item>
     <item>
       <title>Web Development</title>
       <link>https://chandrakundu.github.io/categories/web-development/</link>
-      <pubDate>Sun, 01 Oct 2023 00:37:12 -0400</pubDate>
+      <pubDate>Sun, 01 Oct 2023 00:37:12 -0400</pubDate><author>chandra.kundu@ucf.edu (Chandra Kundu)</author>
       <guid>https://chandrakundu.github.io/categories/web-development/</guid>
       <description>Web Development</description>
     </item>
